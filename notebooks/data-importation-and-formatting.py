@@ -13,14 +13,26 @@ list_dir_images = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Bacterial Pneu
                                  "img_dir" : lst_dirs_condition})
 
 def mask_overlay(img, mask):
+    """
+    Redimmensionne du masque à la taille de l'image puis
+    superpose des deux
+    """ 
     mask = cv2.resize(mask, dsize=img.shape)
     masked_img = cv2.bitwise_and(img, mask)
     return masked_img
 
 def convert_to_vector(img):
+    """
+    Convertit une image au format array 299*299 en un vecteur.
+    """ 
     return img.reshape(1,299*299)[0]
 
 def load_img_dir(condition, mask=False):
+    """
+    Charge l'ensemble des images radio ou masques pour une condition donnée.
+    Chaque image est chargée au format array 299*299.
+    Retourne une liste d'arrays.
+    """     
     if mask==False:
         dir_condition = os.path.join(data_folder, condition, "images")
     else:
@@ -32,6 +44,10 @@ def load_img_dir(condition, mask=False):
     return img_list
 
 def load_img_dir_in_df(condition, mask=False):
+    """
+    Charge l'ensemble des images radio ou masques pour une condition donnée.
+    Retourne un df de 299x299 colonnes (1 par pixel) + 1 colonne de label
+    """     
     if mask==False:
         dir_condition = os.path.join(data_folder, condition, "images")
     else:
@@ -44,6 +60,30 @@ def load_img_dir_in_df(condition, mask=False):
     img_df = pd.DataFrame(img_list.apply(convert_to_vector).apply(pd.Series))
     img_df['label'] = condition
     return img_df
+
+def load_img_multiple_cond_in_df(selected_conditions = 'all'):
+    """
+    Charge l'ensemble des images radio ou masques pour une liste de conditions donnée donnée.
+    Retourne un df de 299*299 colonnes (1 par pixel) + 1 colonne de label
+    """  
+    conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
+    if selected_conditions=='all': selected_conditions=conditions
+    if (np.mean([c in conditions for c in selected_conditions])!=1)&(selected_conditions!=conditions): 
+        print('Conditions incorrectes')
+        res = None
+    elif type(selected_conditions)==str:    # si un seul élément renseigné
+        res = load_img_dir_in_df(selected_conditions)
+        res['label'] = selected_conditions
+    else: 
+        res = load_img_dir_in_df(selected_conditions[0])
+        res['label'] = selected_conditions[0]
+
+        for c in range(1,len(selected_conditions)):
+            img_df_c = load_img_dir_in_df(selected_conditions[c])
+            img_df_c['label'] = selected_conditions[c]
+            res = pd.concat([res,img_df_c])
+        res = res.reset_index().drop(columns='index')
+    return res
 
 def get_all_masks_size():
     condition = conditions[0]
@@ -70,6 +110,11 @@ def get_all_masks_size():
     return df_mean_lungs_size
 
 def load_masked_img_dir(condition):
+    """
+    Charge l'ensemble des images radio ou masques pour une condition donnée.
+    Chaque image est chargée au format array 299*299.
+    Retourne une liste d'arrays.
+    """    
     dir_condition = os.path.join(data_folder, condition)
     dir_radio_images = os.path.join(dir_condition, "images")
     filenames = [name for name in os.listdir(dir_radio_images)]
@@ -82,6 +127,10 @@ def load_masked_img_dir(condition):
     return masked_img_list
 
 def load_masked_img_dir_in_df(condition):
+    """
+    Charge l'ensemble des images masquées pour une condition donnée.
+    Retourne un df de 299x299 colonnes (1 par pixel) + 1 colonne de label
+    """     
     dir_condition = os.path.join(data_folder, condition)
     dir_radio_images = os.path.join(dir_condition, "images")
     filenames = [name for name in os.listdir(dir_radio_images)]
@@ -96,7 +145,34 @@ def load_masked_img_dir_in_df(condition):
     masked_img_df['label'] = condition
     return masked_img_df
 
+def load_masked_img_multiple_cond_in_df(selected_conditions = 'all'):
+    """
+    Charge l'ensemble des images radio masquées pour une liste de conditions donnée donnée.
+    Retourne un df de 299*299 colonnes (1 par pixel) + 1 colonne de label
+    """  
+    conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
+    if selected_conditions=='all': selected_conditions=conditions
+    if (np.mean([c in conditions for c in selected_conditions])!=1)&(selected_conditions!=conditions): 
+        print('Conditions incorrectes')
+        res = None
+    elif type(selected_conditions)==str:    # si un seul élément renseigné
+        res = load_masked_img_dir_in_df(selected_conditions)
+        res['label'] = selected_conditions
+    else: 
+        res = load_masked_img_dir_in_df(selected_conditions[0])
+        res['label'] = selected_conditions[0]
+
+        for c in range(1,len(selected_conditions)):
+            img_df_c = load_masked_img_dir_in_df(selected_conditions[c])
+            img_df_c['label'] = selected_conditions[c]
+            res = pd.concat([res,img_df_c])
+        res = res.reset_index().drop(columns='index')
+    return res
+
 def get_color_distribution(masked_img_asserie):
+    """
+    Charge une image masquée au format Series (vecteur) et renvoie la distribution des niveaux de gris dans les poumons.
+    """    
     # Retrait du noir
     masked_im = masked_img_asserie[masked_img_asserie!=0]
     # Calcul de la répartition des niveaux de gris
@@ -112,6 +188,10 @@ def get_color_distribution(masked_img_asserie):
     return  df_distrib.tail(1).fillna(0)
 
 def compute_color_distribution_from_dir_imgs(condition):
+    """
+    Calcule la distribution des niveaux de gris dans les poumons pour l'ensemble des images avec masques pour une condition donnée
+    Renvoie un df de 255 colonnes.
+    """   
     dir_condition = os.path.join(data_folder, condition)
     dir_radio_images = os.path.join(dir_condition, "images")
     filenames = [name for name in os.listdir(dir_radio_images)]
