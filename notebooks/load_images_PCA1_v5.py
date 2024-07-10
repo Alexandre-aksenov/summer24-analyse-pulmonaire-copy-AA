@@ -72,14 +72,16 @@ def extract_feat_2DF_opt_cols(fun_feat, iter_img, feat_names=None):
 
 
 
-def flatten_except_1st_dim(tens):
+def unfold_except_1st_dim(tens: np.ndarray):
     """
-
+    Unfolds (converts to one long dimension)
+    all dimensions of the tensor after the 1st one.
+    
     Args:
-        tens (_type_): _description_
+        tens (np.ndarray with several dims): the original tensor.
 
     Returns:
-        _type_: _description_
+        np.ndarray with several dims: tensor unfolded into a matrix.
     """
     return tens.reshape(tens.shape[0], -1)
 
@@ -109,7 +111,7 @@ def path2DF_imgs(path_folder):
         tens_img[im_num - 1, :, :] = image
     
     # convert to DF
-    df_images = pd.DataFrame(data=flatten_except_1st_dim(tens_img),
+    df_images = pd.DataFrame(data=unfold_except_1st_dim(tens_img),
                             index=range(1, num_img + 1))
     return df_images
 
