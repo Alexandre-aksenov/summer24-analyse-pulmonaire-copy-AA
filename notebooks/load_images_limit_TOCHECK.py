@@ -2,14 +2,12 @@
 Functions for loading a part of images
 in lower resolution
 and as black-and-white.
-
-TOADAPT from 'PCA2_SVM_v2_fails' and for use in 'PCA2_SVM_v3_fails'.
 """
 
 import os
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 import cv2
 
 
