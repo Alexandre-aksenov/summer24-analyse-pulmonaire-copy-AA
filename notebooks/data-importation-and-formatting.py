@@ -12,25 +12,28 @@ lst_dirs_condition = [os.path.join(data_folder, cond, "images") for cond in cond
 list_dir_images = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Bacterial Pneumonia", "Covid", "Normal"],
                                  "img_dir" : lst_dirs_condition})
 
+IMG_SIZE = 255
+
 def mask_overlay(img, mask):
     """
     Redimmensionne du masque à la taille de l'image puis
     superpose des deux
     """ 
-    mask = cv2.resize(mask, dsize=img.shape)
+    mask = cv2.resize(mask, dsize=(IMG_SIZE,IMG_SIZE))
+    img = cv2.resize(img, dsize=(IMG_SIZE,IMG_SIZE))
     masked_img = cv2.bitwise_and(img, mask)
     return masked_img
 
 def convert_to_vector(img):
     """
-    Convertit une image au format array 299*299 en un vecteur.
+    Convertit une image au format array IMG_SIZE*IMG_SIZE en un vecteur.
     """ 
-    return img.reshape(1,299*299)[0]
+    return img.reshape(1,IMG_SIZE*IMG_SIZE)[0]
 
 def load_img_dir(condition, mask=False):
     """
     Charge l'ensemble des images radio ou masques pour une condition donnée.
-    Chaque image est chargée au format array 299*299.
+    Chaque image est chargée au format array IMG_SIZE*IMG_SIZE.
     Retourne une liste d'arrays.
     """     
     if mask==False:
@@ -46,7 +49,7 @@ def load_img_dir(condition, mask=False):
 def load_img_dir_in_df(condition, mask=False):
     """
     Charge l'ensemble des images radio ou masques pour une condition donnée.
-    Retourne un df de 299x299 colonnes (1 par pixel) + 1 colonne de label
+    Retourne un df de IMG_SIZExIMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """     
     if mask==False:
         dir_condition = os.path.join(data_folder, condition, "images")
@@ -64,7 +67,7 @@ def load_img_dir_in_df(condition, mask=False):
 def load_img_multiple_cond_in_df(selected_conditions = 'all'):
     """
     Charge l'ensemble des images radio ou masques pour une liste de conditions donnée donnée.
-    Retourne un df de 299*299 colonnes (1 par pixel) + 1 colonne de label
+    Retourne un df de IMG_SIZE*IMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """  
     conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
     if selected_conditions=='all': selected_conditions=conditions
@@ -112,7 +115,7 @@ def get_all_masks_size():
 def load_masked_img_dir(condition):
     """
     Charge l'ensemble des images radio ou masques pour une condition donnée.
-    Chaque image est chargée au format array 299*299.
+    Chaque image est chargée au format array IMG_SIZE*IMG_SIZE.
     Retourne une liste d'arrays.
     """    
     dir_condition = os.path.join(data_folder, condition)
@@ -129,7 +132,7 @@ def load_masked_img_dir(condition):
 def load_masked_img_dir_in_df(condition):
     """
     Charge l'ensemble des images masquées pour une condition donnée.
-    Retourne un df de 299x299 colonnes (1 par pixel) + 1 colonne de label
+    Retourne un df de IMG_SIZExIMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """     
     dir_condition = os.path.join(data_folder, condition)
     dir_radio_images = os.path.join(dir_condition, "images")
@@ -148,7 +151,7 @@ def load_masked_img_dir_in_df(condition):
 def load_masked_img_multiple_cond_in_df(selected_conditions = 'all'):
     """
     Charge l'ensemble des images radio masquées pour une liste de conditions donnée donnée.
-    Retourne un df de 299*299 colonnes (1 par pixel) + 1 colonne de label
+    Retourne un df de IMG_SIZE*IMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """  
     conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
     if selected_conditions=='all': selected_conditions=conditions

@@ -10,10 +10,17 @@ img_folder = "images"
 
 lst_dirs_condition = [os.path.join(data_folder, cond, "images") for cond in conditions]
 
-list_dir_images = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Bacterial Pneumonia", "Covid", "Normal"],
+list_dir_images = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Lung Opacity", "Covid", "Normal"],
                                  "img_dir" : lst_dirs_condition})
-                                 
-IMG_SIZE = 50
+
+
+## Fixe la résolution d'image sélectionnée
+IMG_SIZE = 256
+
+
+##Fixe la seed pour le tirage aléatoire des images
+random.seed(58)
+
 
 def mask_overlay(img, mask):
     """
@@ -47,16 +54,24 @@ def load_img_dir(condition, mask=False):
         img_list.append(cv2.imread(os.path.join(dir_condition, filename), cv2.IMREAD_GRAYSCALE))
     return img_list
 
-def load_img_dir_in_df(condition, mask=False):
+def load_img_dir_in_df(condition, size=0, mask=False):
+    
     """
-    Charge l'ensemble des images radio ou masques pour une condition donnée.
+    Charge un nombre size d'images pour une condition donnée. 
+    Args :
+        condition : un string indiquant la condition à charger ;
+        size : int indiquant le nombre d'images à charger. Si size=0, l'ensemble des images est chargé ;
+        mask : un booléen indiquant si on charge les images radio ou les images de masques.
+
     Retourne un df de IMG_SIZExIMG_SIZE colonnes (1 par pixel) + 1 colonne de label
-    """     
+    """   
     if mask==False:
         dir_condition = os.path.join(data_folder, condition, "images")
     else:
         dir_condition = os.path.join(data_folder, condition, "masks")       
     filenames = [name for name in os.listdir(dir_condition)]
+    if size!=0 :
+        filenames = random.sample(filenames, size)
     img_list = []
     for i, filename in enumerate(filenames):
         img_list.append(cv2.imread(os.path.join(dir_condition, filename), cv2.IMREAD_GRAYSCALE))
@@ -65,25 +80,36 @@ def load_img_dir_in_df(condition, mask=False):
     img_df['label'] = condition
     return img_df
 
-def load_img_multiple_cond_in_df(selected_conditions = 'all'):
+
+def load_img_multiple_cond_in_df(selected_conditions = 'all', sample_sizes=0): 
     """
-    Charge l'ensemble des images radio ou masques pour une liste de conditions donnée donnée.
+    Charge un nombre fixé d'images radio pour une liste de conditions donnée. 
+    Args :
+        selected_conditions : liste de conditions à charger. Ensemble de la base chargée si selected_conditions='all'
+        sample_sizes : Liste de tailles d'échantillon pour les conditions renseignées. Si égal à 0, l'ensemble des images de la condition est chargé.
+
     Retourne un df de IMG_SIZE*IMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """  
     conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
     if selected_conditions=='all': selected_conditions=conditions
+
+    if (sample_sizes!=0) & (type(sample_sizes)=='int'):
+        print("Les tailles d'échantillons ne correspondent pas au nombre de conditions")
+    elif sample_sizes == 0:
+        sample_sizes = np.zeros(len(selected_conditions))
+
     if (np.mean([c in conditions for c in selected_conditions])!=1)&(selected_conditions!=conditions): 
         print('Conditions incorrectes')
         res = None
     elif type(selected_conditions)==str:    # si un seul élément renseigné
-        res = load_img_dir_in_df(selected_conditions)
+        res = load_img_dir_in_df(selected_conditions, sample_sizes[0])
         res['label'] = selected_conditions
     else: 
-        res = load_img_dir_in_df(selected_conditions[0])
+        res = load_img_dir_in_df(selected_conditions[0], sample_sizes[0])
         res['label'] = selected_conditions[0]
 
         for c in range(1,len(selected_conditions)):
-            img_df_c = load_img_dir_in_df(selected_conditions[c])
+            img_df_c = load_img_dir_in_df(selected_conditions[c], sample_sizes[c])
             img_df_c['label'] = selected_conditions[c]
             res = pd.concat([res,img_df_c])
         res = res.reset_index().drop(columns='index')
