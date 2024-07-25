@@ -1,0 +1,11 @@
+,Images,Masks,num_class,img_folder,mask_folder
+0,COVID-10.png,COVID-10.png,2,COVID/images,COVID/masks
+1,COVID-20.png,COVID-20.png,2,COVID/images,COVID/masks
+2,COVID-42.png,COVID-42.png,2,COVID/images,COVID/masks
+3,COVID-100.png,COVID-100.png,2,COVID/images,COVID/masks
+4,Lung_Opacity-42.png,Lung_Opacity-42.png,1,Lung_Opacity/images,Lung_Opacity/masks
+5,Normal-10.png,Normal-10.png,0,Normal/images,Normal/masks
+6,Normal-20.png,Normal-20.png,0,Normal/images,Normal/masks
+7,Normal-42.png,Normal-42.png,0,Normal/images,Normal/masks
+8,Normal-100.png,Normal-100.png,0,Normal/images,Normal/masks
+9,Viral Pneumonia-42.png,Viral Pneumonia-42.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
