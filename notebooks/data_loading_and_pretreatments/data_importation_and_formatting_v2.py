@@ -5,9 +5,8 @@ import cv2
 import random
 from collections import Counter
 
-from data_loading_and_pretreatments.outlier_identification import outliers_id
-
-data_folder = "../data"
+from outlier_identification import outliers_id
+from global_variables import get_data_folder
 conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
 
 ##Fixe la seed pour le tirage aléatoire des images
@@ -17,6 +16,14 @@ random.seed(58)
 def set_img_size(size):
     global IMG_SIZE
     IMG_SIZE = size
+
+# def define_data_folder(path):
+#     global data_folder
+#     data_folder = path
+
+# def get_data_folder():
+#     return data_folder
+data_folder = get_data_folder()
 
 def mask_overlay(img, mask):
     """
@@ -47,6 +54,7 @@ def load_img_dir(condition, size=0, mask=False):
 
     Retourne un tuple contenant un array d'images (arrays 299 x 299) et une liste de labels
     """
+    global data_folder
     if mask==False:
         dir_condition = os.path.join(data_folder, condition, "images")
     else:
@@ -81,6 +89,7 @@ def load_img_dir_in_df(condition, size=0, mask=False):
 
     Retourne un df de IMG_SIZExIMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """   
+    global data_folder
     if mask==False:
         dir_condition = os.path.join(data_folder, condition, "images")
     else:
@@ -112,6 +121,7 @@ def load_img_multiple_cond_in_df(selected_conditions = 'all', sample_sizes=0):
 
     Retourne un df de IMG_SIZE*IMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """  
+    global data_folder
     conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
     if selected_conditions=='all': selected_conditions=conditions
 
@@ -147,6 +157,7 @@ def load_masked_img_dir(condition, size=0):
         size : int indiquant le nombre d'images à charger. Si size=0, l'ensemble des images est chargé.
     Retourne un tuble contenant un array d'images (arrays IMG_SIZExIMG_SIZEx1) et 1 colonne de labels
     """     
+    global data_folder
     dir_condition = os.path.join(data_folder, condition)
     dir_radio_images = os.path.join(dir_condition, "images")
     all_filenames = [name for name in os.listdir(dir_radio_images)]
@@ -180,6 +191,7 @@ def load_masked_img_multiple_cond(selected_conditions = 'all', sample_sizes=0):
 
     Retourne un tuble contenant un array d'images (arrays IMG_SIZExIMG_SIZEx1) et 1 colonne de labels
     """  
+    global data_folder
     conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
 
     if selected_conditions=='all': selected_conditions=conditions
@@ -213,6 +225,7 @@ def load_masked_img_dir_in_df(condition, size=0):
         size : int indiquant le nombre d'images à charger. Si size=0, l'ensemble des images est chargé.
     Retourne un df de IMG_SIZExIMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """     
+    global data_folder
     dir_condition = os.path.join(data_folder, condition)
     dir_radio_images = os.path.join(dir_condition, "images")
     all_filenames = [name for name in os.listdir(dir_radio_images)]
@@ -246,6 +259,7 @@ def load_masked_img_multiple_cond_in_df(selected_conditions = 'all', sample_size
 
     Retourne un df de IMG_SIZE*IMG_SIZE colonnes (1 par pixel) + 1 colonne de label
     """  
+    global data_folder
     conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
 
     if selected_conditions=='all': selected_conditions=conditions

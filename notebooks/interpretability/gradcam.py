@@ -13,8 +13,10 @@ from tensorflow.keras.models import  Model
 from IPython.display import Image, display
 import matplotlib.pyplot as plt
 
-data_folder = "../data"
-
+import sys
+sys.path.insert(0, '../data_loading_and_pretreatments/')
+from global_variables import get_data_folder
+data_folder = get_data_folder()
 
 def make_gradcam_heatmap(
     img_array, model, 
