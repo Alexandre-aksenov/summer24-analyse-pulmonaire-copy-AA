@@ -3,11 +3,16 @@ import pandas as pd
 import numpy as np
 import cv2
 
-data_folder = "../../data"
+from global_variables import get_data_folder
+
+data_folder = get_data_folder()
 conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
 lst_dirs_condition = [os.path.join(data_folder, cond, "images") for cond in conditions]
+
 list_dir_images = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Lung Opacity", "Covid", "Normal"],
-                            "img_dir" : lst_dirs_condition})
+                        "img_dir" : lst_dirs_condition})
+
+
 
 def color_concentration(img, alpha):
     """
@@ -27,6 +32,8 @@ def contrast_img_indicators(alpha):
     Return
         Un dataframe contenant 4 colonnes : le nom de l'image, son niveau de gris moyen, l'écart-type et l'écart interquantile des niveaux de gris.
     '''   
+    global data_folder
+
     if os.path.exists(os.path.join(data_folder, "img_contrasts_indicators.csv")):
         contrast_df = pd.read_csv(os.path.join(data_folder, "img_contrasts_indicators.csv"), index_col=0)
     else :
@@ -55,6 +62,7 @@ def outliers_id(level=0.005, alpha=0.05):
     Return
         Une liste de noms d'images
     """   
+    global data_folder
     if os.path.exists(os.path.join(data_folder, "img_contrasts_indicators.csv")):
         contrast_img_data = pd.read_csv(os.path.join(data_folder, "img_contrasts_indicators.csv"), index_col=0)
     else :
@@ -71,6 +79,7 @@ def get_all_masks_size():
     Return
         Un dataframe contenant 3 colonnes : le nom de l'image, sa classe et la part occupée par les poumons.
     """   
+    global data_folder
     lst_masks_dirs_condition = [os.path.join(data_folder, cond, "masks") for cond in conditions]
     list_dir_masks = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Lung Opacity", "Covid", "Normal"],
                                 "masks_dir" : lst_masks_dirs_condition})
@@ -93,6 +102,8 @@ def get_black_proportion_in_img():
     Return
         Un dataframe contenant 3 colonnes : le nom de l'image, sa classe et la part de pixels noirs.
     """   
+    global data_folder
+
     prop_black_img = []
     for k, dir in enumerate(list_dir_images.img_dir):
         dir_images = dir
