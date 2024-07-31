@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import cv2
 
-data_folder = "../data"
+data_folder = "../../data"
 conditions = ["Viral Pneumonia", "Lung_Opacity", "COVID",  "Normal"]
 lst_dirs_condition = [os.path.join(data_folder, cond, "images") for cond in conditions]
 list_dir_images = pd.DataFrame({"img_type" : ["Viral Pneumonia", "Lung Opacity", "Covid", "Normal"],
