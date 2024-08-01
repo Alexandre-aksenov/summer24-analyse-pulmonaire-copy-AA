@@ -9,6 +9,8 @@ Example test: src/pred_dir_img_mask_10_img_from_CSV.py
 
 V2 : refactor for extracting a function for reading one image and mask.
 For use in Grad_CAM.
+
+The function is actually BUGGED! It returns twice the images, discarding the masks.
 """
 
 import os
@@ -46,7 +48,7 @@ def load_img_mask(tup_paths: tuple, new_size=(28, 28)):
     try:
         # Read the grayscale image as: HEIGHT x WIDTH x 1
         mask = cv2.imread(mask_path, cv2.IMREAD_GRAYSCALE)
-        mask = cv2.resize(img, new_size)
+        mask = cv2.resize(mask, new_size)  #
         mask = mask / 255.0
         image_data[0, :, :, 1] = mask
     except Exception as e:
