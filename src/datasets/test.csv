@@ -1,0 +1,751 @@
+,Images,Masks,num_class,img_folder,mask_folder
+0,Normal-5305.png,Normal-5305.png,0,Normal/images,Normal/masks
+1,Viral Pneumonia-748.png,Viral Pneumonia-748.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+2,Normal-3718.png,Normal-3718.png,0,Normal/images,Normal/masks
+3,Lung_Opacity-4849.png,Lung_Opacity-4849.png,1,Lung_Opacity/images,Lung_Opacity/masks
+4,Normal-789.png,Normal-789.png,0,Normal/images,Normal/masks
+5,Lung_Opacity-872.png,Lung_Opacity-872.png,1,Lung_Opacity/images,Lung_Opacity/masks
+6,Viral Pneumonia-240.png,Viral Pneumonia-240.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+7,COVID-3137.png,COVID-3137.png,2,COVID/images,COVID/masks
+8,Normal-2027.png,Normal-2027.png,0,Normal/images,Normal/masks
+9,Lung_Opacity-5673.png,Lung_Opacity-5673.png,1,Lung_Opacity/images,Lung_Opacity/masks
+10,Viral Pneumonia-1336.png,Viral Pneumonia-1336.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+11,COVID-2418.png,COVID-2418.png,2,COVID/images,COVID/masks
+12,Lung_Opacity-106.png,Lung_Opacity-106.png,1,Lung_Opacity/images,Lung_Opacity/masks
+13,Lung_Opacity-2062.png,Lung_Opacity-2062.png,1,Lung_Opacity/images,Lung_Opacity/masks
+14,Normal-7818.png,Normal-7818.png,0,Normal/images,Normal/masks
+15,Normal-2726.png,Normal-2726.png,0,Normal/images,Normal/masks
+16,COVID-1677.png,COVID-1677.png,2,COVID/images,COVID/masks
+17,Normal-3127.png,Normal-3127.png,0,Normal/images,Normal/masks
+18,Lung_Opacity-4969.png,Lung_Opacity-4969.png,1,Lung_Opacity/images,Lung_Opacity/masks
+19,COVID-2577.png,COVID-2577.png,2,COVID/images,COVID/masks
+20,COVID-3007.png,COVID-3007.png,2,COVID/images,COVID/masks
+21,COVID-1336.png,COVID-1336.png,2,COVID/images,COVID/masks
+22,Normal-7748.png,Normal-7748.png,0,Normal/images,Normal/masks
+23,Viral Pneumonia-1241.png,Viral Pneumonia-1241.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+24,Viral Pneumonia-199.png,Viral Pneumonia-199.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+25,Lung_Opacity-5343.png,Lung_Opacity-5343.png,1,Lung_Opacity/images,Lung_Opacity/masks
+26,Normal-7391.png,Normal-7391.png,0,Normal/images,Normal/masks
+27,COVID-1464.png,COVID-1464.png,2,COVID/images,COVID/masks
+28,Normal-402.png,Normal-402.png,0,Normal/images,Normal/masks
+29,Viral Pneumonia-726.png,Viral Pneumonia-726.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+30,Normal-2211.png,Normal-2211.png,0,Normal/images,Normal/masks
+31,COVID-1236.png,COVID-1236.png,2,COVID/images,COVID/masks
+32,Normal-4493.png,Normal-4493.png,0,Normal/images,Normal/masks
+33,Normal-5533.png,Normal-5533.png,0,Normal/images,Normal/masks
+34,Normal-6598.png,Normal-6598.png,0,Normal/images,Normal/masks
+35,Lung_Opacity-1900.png,Lung_Opacity-1900.png,1,Lung_Opacity/images,Lung_Opacity/masks
+36,Normal-6554.png,Normal-6554.png,0,Normal/images,Normal/masks
+37,Normal-3736.png,Normal-3736.png,0,Normal/images,Normal/masks
+38,Normal-2550.png,Normal-2550.png,0,Normal/images,Normal/masks
+39,Lung_Opacity-3876.png,Lung_Opacity-3876.png,1,Lung_Opacity/images,Lung_Opacity/masks
+40,Normal-4763.png,Normal-4763.png,0,Normal/images,Normal/masks
+41,COVID-2806.png,COVID-2806.png,2,COVID/images,COVID/masks
+42,COVID-2147.png,COVID-2147.png,2,COVID/images,COVID/masks
+43,Lung_Opacity-5540.png,Lung_Opacity-5540.png,1,Lung_Opacity/images,Lung_Opacity/masks
+44,Lung_Opacity-4707.png,Lung_Opacity-4707.png,1,Lung_Opacity/images,Lung_Opacity/masks
+45,Viral Pneumonia-1270.png,Viral Pneumonia-1270.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+46,Viral Pneumonia-1312.png,Viral Pneumonia-1312.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+47,Viral Pneumonia-840.png,Viral Pneumonia-840.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+48,COVID-240.png,COVID-240.png,2,COVID/images,COVID/masks
+49,Normal-897.png,Normal-897.png,0,Normal/images,Normal/masks
+50,COVID-1105.png,COVID-1105.png,2,COVID/images,COVID/masks
+51,Normal-3322.png,Normal-3322.png,0,Normal/images,Normal/masks
+52,Viral Pneumonia-507.png,Viral Pneumonia-507.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+53,Lung_Opacity-14.png,Lung_Opacity-14.png,1,Lung_Opacity/images,Lung_Opacity/masks
+54,COVID-2902.png,COVID-2902.png,2,COVID/images,COVID/masks
+55,Lung_Opacity-72.png,Lung_Opacity-72.png,1,Lung_Opacity/images,Lung_Opacity/masks
+56,COVID-2947.png,COVID-2947.png,2,COVID/images,COVID/masks
+57,Viral Pneumonia-195.png,Viral Pneumonia-195.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+58,Normal-7616.png,Normal-7616.png,0,Normal/images,Normal/masks
+59,Lung_Opacity-67.png,Lung_Opacity-67.png,1,Lung_Opacity/images,Lung_Opacity/masks
+60,COVID-1550.png,COVID-1550.png,2,COVID/images,COVID/masks
+61,COVID-2986.png,COVID-2986.png,2,COVID/images,COVID/masks
+62,Normal-6221.png,Normal-6221.png,0,Normal/images,Normal/masks
+63,COVID-2321.png,COVID-2321.png,2,COVID/images,COVID/masks
+64,Normal-2950.png,Normal-2950.png,0,Normal/images,Normal/masks
+65,COVID-701.png,COVID-701.png,2,COVID/images,COVID/masks
+66,Normal-1703.png,Normal-1703.png,0,Normal/images,Normal/masks
+67,COVID-2688.png,COVID-2688.png,2,COVID/images,COVID/masks
+68,Viral Pneumonia-1231.png,Viral Pneumonia-1231.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+69,COVID-2771.png,COVID-2771.png,2,COVID/images,COVID/masks
+70,Viral Pneumonia-906.png,Viral Pneumonia-906.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+71,COVID-1186.png,COVID-1186.png,2,COVID/images,COVID/masks
+72,Lung_Opacity-3045.png,Lung_Opacity-3045.png,1,Lung_Opacity/images,Lung_Opacity/masks
+73,Viral Pneumonia-779.png,Viral Pneumonia-779.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+74,COVID-2643.png,COVID-2643.png,2,COVID/images,COVID/masks
+75,Normal-2288.png,Normal-2288.png,0,Normal/images,Normal/masks
+76,COVID-2723.png,COVID-2723.png,2,COVID/images,COVID/masks
+77,COVID-82.png,COVID-82.png,2,COVID/images,COVID/masks
+78,Lung_Opacity-4342.png,Lung_Opacity-4342.png,1,Lung_Opacity/images,Lung_Opacity/masks
+79,Viral Pneumonia-1265.png,Viral Pneumonia-1265.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+80,Normal-2078.png,Normal-2078.png,0,Normal/images,Normal/masks
+81,Normal-7018.png,Normal-7018.png,0,Normal/images,Normal/masks
+82,COVID-3504.png,COVID-3504.png,2,COVID/images,COVID/masks
+83,Normal-6643.png,Normal-6643.png,0,Normal/images,Normal/masks
+84,COVID-1654.png,COVID-1654.png,2,COVID/images,COVID/masks
+85,COVID-3554.png,COVID-3554.png,2,COVID/images,COVID/masks
+86,Normal-4375.png,Normal-4375.png,0,Normal/images,Normal/masks
+87,COVID-19.png,COVID-19.png,2,COVID/images,COVID/masks
+88,Normal-8478.png,Normal-8478.png,0,Normal/images,Normal/masks
+89,COVID-1578.png,COVID-1578.png,2,COVID/images,COVID/masks
+90,Viral Pneumonia-655.png,Viral Pneumonia-655.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+91,COVID-1112.png,COVID-1112.png,2,COVID/images,COVID/masks
+92,COVID-2052.png,COVID-2052.png,2,COVID/images,COVID/masks
+93,COVID-2685.png,COVID-2685.png,2,COVID/images,COVID/masks
+94,Normal-2621.png,Normal-2621.png,0,Normal/images,Normal/masks
+95,COVID-3527.png,COVID-3527.png,2,COVID/images,COVID/masks
+96,Normal-3092.png,Normal-3092.png,0,Normal/images,Normal/masks
+97,COVID-708.png,COVID-708.png,2,COVID/images,COVID/masks
+98,Viral Pneumonia-825.png,Viral Pneumonia-825.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+99,Lung_Opacity-871.png,Lung_Opacity-871.png,1,Lung_Opacity/images,Lung_Opacity/masks
+100,Normal-7034.png,Normal-7034.png,0,Normal/images,Normal/masks
+101,Viral Pneumonia-1183.png,Viral Pneumonia-1183.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+102,Normal-1632.png,Normal-1632.png,0,Normal/images,Normal/masks
+103,COVID-2143.png,COVID-2143.png,2,COVID/images,COVID/masks
+104,Viral Pneumonia-181.png,Viral Pneumonia-181.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+105,Viral Pneumonia-601.png,Viral Pneumonia-601.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+106,COVID-1855.png,COVID-1855.png,2,COVID/images,COVID/masks
+107,Normal-6281.png,Normal-6281.png,0,Normal/images,Normal/masks
+108,COVID-1178.png,COVID-1178.png,2,COVID/images,COVID/masks
+109,Normal-6148.png,Normal-6148.png,0,Normal/images,Normal/masks
+110,COVID-1269.png,COVID-1269.png,2,COVID/images,COVID/masks
+111,Normal-8258.png,Normal-8258.png,0,Normal/images,Normal/masks
+112,Normal-7939.png,Normal-7939.png,0,Normal/images,Normal/masks
+113,Normal-8938.png,Normal-8938.png,0,Normal/images,Normal/masks
+114,Normal-1790.png,Normal-1790.png,0,Normal/images,Normal/masks
+115,COVID-1457.png,COVID-1457.png,2,COVID/images,COVID/masks
+116,Normal-9690.png,Normal-9690.png,0,Normal/images,Normal/masks
+117,Lung_Opacity-4086.png,Lung_Opacity-4086.png,1,Lung_Opacity/images,Lung_Opacity/masks
+118,Normal-6939.png,Normal-6939.png,0,Normal/images,Normal/masks
+119,Normal-4570.png,Normal-4570.png,0,Normal/images,Normal/masks
+120,COVID-898.png,COVID-898.png,2,COVID/images,COVID/masks
+121,Lung_Opacity-1644.png,Lung_Opacity-1644.png,1,Lung_Opacity/images,Lung_Opacity/masks
+122,Normal-9186.png,Normal-9186.png,0,Normal/images,Normal/masks
+123,COVID-557.png,COVID-557.png,2,COVID/images,COVID/masks
+124,Viral Pneumonia-1076.png,Viral Pneumonia-1076.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+125,Normal-1722.png,Normal-1722.png,0,Normal/images,Normal/masks
+126,Normal-5342.png,Normal-5342.png,0,Normal/images,Normal/masks
+127,Lung_Opacity-3010.png,Lung_Opacity-3010.png,1,Lung_Opacity/images,Lung_Opacity/masks
+128,COVID-1176.png,COVID-1176.png,2,COVID/images,COVID/masks
+129,Normal-8107.png,Normal-8107.png,0,Normal/images,Normal/masks
+130,COVID-3223.png,COVID-3223.png,2,COVID/images,COVID/masks
+131,COVID-3285.png,COVID-3285.png,2,COVID/images,COVID/masks
+132,Normal-1947.png,Normal-1947.png,0,Normal/images,Normal/masks
+133,COVID-2505.png,COVID-2505.png,2,COVID/images,COVID/masks
+134,Viral Pneumonia-1173.png,Viral Pneumonia-1173.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+135,COVID-3065.png,COVID-3065.png,2,COVID/images,COVID/masks
+136,Normal-6510.png,Normal-6510.png,0,Normal/images,Normal/masks
+137,Lung_Opacity-963.png,Lung_Opacity-963.png,1,Lung_Opacity/images,Lung_Opacity/masks
+138,Viral Pneumonia-727.png,Viral Pneumonia-727.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+139,Normal-7638.png,Normal-7638.png,0,Normal/images,Normal/masks
+140,Lung_Opacity-5834.png,Lung_Opacity-5834.png,1,Lung_Opacity/images,Lung_Opacity/masks
+141,COVID-3055.png,COVID-3055.png,2,COVID/images,COVID/masks
+142,COVID-1988.png,COVID-1988.png,2,COVID/images,COVID/masks
+143,COVID-1075.png,COVID-1075.png,2,COVID/images,COVID/masks
+144,COVID-815.png,COVID-815.png,2,COVID/images,COVID/masks
+145,Normal-4572.png,Normal-4572.png,0,Normal/images,Normal/masks
+146,COVID-1191.png,COVID-1191.png,2,COVID/images,COVID/masks
+147,Lung_Opacity-3526.png,Lung_Opacity-3526.png,1,Lung_Opacity/images,Lung_Opacity/masks
+148,Normal-9083.png,Normal-9083.png,0,Normal/images,Normal/masks
+149,Viral Pneumonia-908.png,Viral Pneumonia-908.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+150,Viral Pneumonia-1078.png,Viral Pneumonia-1078.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+151,COVID-575.png,COVID-575.png,2,COVID/images,COVID/masks
+152,Normal-8838.png,Normal-8838.png,0,Normal/images,Normal/masks
+153,Lung_Opacity-1293.png,Lung_Opacity-1293.png,1,Lung_Opacity/images,Lung_Opacity/masks
+154,Normal-4857.png,Normal-4857.png,0,Normal/images,Normal/masks
+155,Normal-2657.png,Normal-2657.png,0,Normal/images,Normal/masks
+156,COVID-3603.png,COVID-3603.png,2,COVID/images,COVID/masks
+157,COVID-1617.png,COVID-1617.png,2,COVID/images,COVID/masks
+158,Lung_Opacity-1180.png,Lung_Opacity-1180.png,1,Lung_Opacity/images,Lung_Opacity/masks
+159,Viral Pneumonia-388.png,Viral Pneumonia-388.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+160,Normal-2866.png,Normal-2866.png,0,Normal/images,Normal/masks
+161,Viral Pneumonia-1017.png,Viral Pneumonia-1017.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+162,COVID-1729.png,COVID-1729.png,2,COVID/images,COVID/masks
+163,COVID-2406.png,COVID-2406.png,2,COVID/images,COVID/masks
+164,COVID-2970.png,COVID-2970.png,2,COVID/images,COVID/masks
+165,Normal-5710.png,Normal-5710.png,0,Normal/images,Normal/masks
+166,Viral Pneumonia-347.png,Viral Pneumonia-347.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+167,Normal-6966.png,Normal-6966.png,0,Normal/images,Normal/masks
+168,Viral Pneumonia-491.png,Viral Pneumonia-491.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+169,COVID-3234.png,COVID-3234.png,2,COVID/images,COVID/masks
+170,COVID-3000.png,COVID-3000.png,2,COVID/images,COVID/masks
+171,COVID-2294.png,COVID-2294.png,2,COVID/images,COVID/masks
+172,Normal-6477.png,Normal-6477.png,0,Normal/images,Normal/masks
+173,COVID-1557.png,COVID-1557.png,2,COVID/images,COVID/masks
+174,Lung_Opacity-378.png,Lung_Opacity-378.png,1,Lung_Opacity/images,Lung_Opacity/masks
+175,Lung_Opacity-3948.png,Lung_Opacity-3948.png,1,Lung_Opacity/images,Lung_Opacity/masks
+176,Normal-2227.png,Normal-2227.png,0,Normal/images,Normal/masks
+177,COVID-1981.png,COVID-1981.png,2,COVID/images,COVID/masks
+178,Normal-4756.png,Normal-4756.png,0,Normal/images,Normal/masks
+179,Normal-6741.png,Normal-6741.png,0,Normal/images,Normal/masks
+180,Viral Pneumonia-502.png,Viral Pneumonia-502.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+181,Lung_Opacity-801.png,Lung_Opacity-801.png,1,Lung_Opacity/images,Lung_Opacity/masks
+182,COVID-1665.png,COVID-1665.png,2,COVID/images,COVID/masks
+183,Lung_Opacity-2154.png,Lung_Opacity-2154.png,1,Lung_Opacity/images,Lung_Opacity/masks
+184,Normal-259.png,Normal-259.png,0,Normal/images,Normal/masks
+185,COVID-2405.png,COVID-2405.png,2,COVID/images,COVID/masks
+186,Viral Pneumonia-669.png,Viral Pneumonia-669.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+187,Normal-3187.png,Normal-3187.png,0,Normal/images,Normal/masks
+188,COVID-1166.png,COVID-1166.png,2,COVID/images,COVID/masks
+189,Lung_Opacity-3212.png,Lung_Opacity-3212.png,1,Lung_Opacity/images,Lung_Opacity/masks
+190,Normal-9221.png,Normal-9221.png,0,Normal/images,Normal/masks
+191,COVID-370.png,COVID-370.png,2,COVID/images,COVID/masks
+192,Normal-4347.png,Normal-4347.png,0,Normal/images,Normal/masks
+193,COVID-249.png,COVID-249.png,2,COVID/images,COVID/masks
+194,COVID-213.png,COVID-213.png,2,COVID/images,COVID/masks
+195,Viral Pneumonia-1096.png,Viral Pneumonia-1096.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+196,Normal-8845.png,Normal-8845.png,0,Normal/images,Normal/masks
+197,Normal-5691.png,Normal-5691.png,0,Normal/images,Normal/masks
+198,Viral Pneumonia-1184.png,Viral Pneumonia-1184.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+199,Normal-8151.png,Normal-8151.png,0,Normal/images,Normal/masks
+200,Normal-6494.png,Normal-6494.png,0,Normal/images,Normal/masks
+201,Lung_Opacity-374.png,Lung_Opacity-374.png,1,Lung_Opacity/images,Lung_Opacity/masks
+202,Normal-8955.png,Normal-8955.png,0,Normal/images,Normal/masks
+203,Viral Pneumonia-1260.png,Viral Pneumonia-1260.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+204,Normal-3281.png,Normal-3281.png,0,Normal/images,Normal/masks
+205,Lung_Opacity-5626.png,Lung_Opacity-5626.png,1,Lung_Opacity/images,Lung_Opacity/masks
+206,Lung_Opacity-2022.png,Lung_Opacity-2022.png,1,Lung_Opacity/images,Lung_Opacity/masks
+207,Normal-4002.png,Normal-4002.png,0,Normal/images,Normal/masks
+208,Normal-644.png,Normal-644.png,0,Normal/images,Normal/masks
+209,Lung_Opacity-1929.png,Lung_Opacity-1929.png,1,Lung_Opacity/images,Lung_Opacity/masks
+210,COVID-1433.png,COVID-1433.png,2,COVID/images,COVID/masks
+211,Viral Pneumonia-1178.png,Viral Pneumonia-1178.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+212,Lung_Opacity-1537.png,Lung_Opacity-1537.png,1,Lung_Opacity/images,Lung_Opacity/masks
+213,Normal-9245.png,Normal-9245.png,0,Normal/images,Normal/masks
+214,Lung_Opacity-2414.png,Lung_Opacity-2414.png,1,Lung_Opacity/images,Lung_Opacity/masks
+215,Lung_Opacity-3224.png,Lung_Opacity-3224.png,1,Lung_Opacity/images,Lung_Opacity/masks
+216,Viral Pneumonia-962.png,Viral Pneumonia-962.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+217,Normal-7563.png,Normal-7563.png,0,Normal/images,Normal/masks
+218,Normal-4965.png,Normal-4965.png,0,Normal/images,Normal/masks
+219,Normal-1902.png,Normal-1902.png,0,Normal/images,Normal/masks
+220,Viral Pneumonia-335.png,Viral Pneumonia-335.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+221,Lung_Opacity-1059.png,Lung_Opacity-1059.png,1,Lung_Opacity/images,Lung_Opacity/masks
+222,Normal-10172.png,Normal-10172.png,0,Normal/images,Normal/masks
+223,Lung_Opacity-3027.png,Lung_Opacity-3027.png,1,Lung_Opacity/images,Lung_Opacity/masks
+224,Lung_Opacity-2259.png,Lung_Opacity-2259.png,1,Lung_Opacity/images,Lung_Opacity/masks
+225,Normal-4091.png,Normal-4091.png,0,Normal/images,Normal/masks
+226,Normal-4062.png,Normal-4062.png,0,Normal/images,Normal/masks
+227,Lung_Opacity-1367.png,Lung_Opacity-1367.png,1,Lung_Opacity/images,Lung_Opacity/masks
+228,COVID-1879.png,COVID-1879.png,2,COVID/images,COVID/masks
+229,Viral Pneumonia-1028.png,Viral Pneumonia-1028.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+230,Normal-4146.png,Normal-4146.png,0,Normal/images,Normal/masks
+231,COVID-1418.png,COVID-1418.png,2,COVID/images,COVID/masks
+232,Normal-2092.png,Normal-2092.png,0,Normal/images,Normal/masks
+233,Viral Pneumonia-375.png,Viral Pneumonia-375.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+234,Normal-7631.png,Normal-7631.png,0,Normal/images,Normal/masks
+235,COVID-2858.png,COVID-2858.png,2,COVID/images,COVID/masks
+236,Normal-931.png,Normal-931.png,0,Normal/images,Normal/masks
+237,COVID-904.png,COVID-904.png,2,COVID/images,COVID/masks
+238,Lung_Opacity-5385.png,Lung_Opacity-5385.png,1,Lung_Opacity/images,Lung_Opacity/masks
+239,COVID-539.png,COVID-539.png,2,COVID/images,COVID/masks
+240,Normal-2620.png,Normal-2620.png,0,Normal/images,Normal/masks
+241,Lung_Opacity-5153.png,Lung_Opacity-5153.png,1,Lung_Opacity/images,Lung_Opacity/masks
+242,COVID-2978.png,COVID-2978.png,2,COVID/images,COVID/masks
+243,Lung_Opacity-2142.png,Lung_Opacity-2142.png,1,Lung_Opacity/images,Lung_Opacity/masks
+244,COVID-2306.png,COVID-2306.png,2,COVID/images,COVID/masks
+245,Normal-3505.png,Normal-3505.png,0,Normal/images,Normal/masks
+246,Lung_Opacity-4501.png,Lung_Opacity-4501.png,1,Lung_Opacity/images,Lung_Opacity/masks
+247,Lung_Opacity-764.png,Lung_Opacity-764.png,1,Lung_Opacity/images,Lung_Opacity/masks
+248,COVID-1722.png,COVID-1722.png,2,COVID/images,COVID/masks
+249,Viral Pneumonia-10.png,Viral Pneumonia-10.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+250,Lung_Opacity-5189.png,Lung_Opacity-5189.png,1,Lung_Opacity/images,Lung_Opacity/masks
+251,COVID-572.png,COVID-572.png,2,COVID/images,COVID/masks
+252,Lung_Opacity-3237.png,Lung_Opacity-3237.png,1,Lung_Opacity/images,Lung_Opacity/masks
+253,COVID-630.png,COVID-630.png,2,COVID/images,COVID/masks
+254,COVID-2191.png,COVID-2191.png,2,COVID/images,COVID/masks
+255,Normal-3516.png,Normal-3516.png,0,Normal/images,Normal/masks
+256,Lung_Opacity-3924.png,Lung_Opacity-3924.png,1,Lung_Opacity/images,Lung_Opacity/masks
+257,COVID-1524.png,COVID-1524.png,2,COVID/images,COVID/masks
+258,Normal-9960.png,Normal-9960.png,0,Normal/images,Normal/masks
+259,Normal-8650.png,Normal-8650.png,0,Normal/images,Normal/masks
+260,COVID-741.png,COVID-741.png,2,COVID/images,COVID/masks
+261,COVID-346.png,COVID-346.png,2,COVID/images,COVID/masks
+262,COVID-1758.png,COVID-1758.png,2,COVID/images,COVID/masks
+263,Lung_Opacity-3818.png,Lung_Opacity-3818.png,1,Lung_Opacity/images,Lung_Opacity/masks
+264,Normal-5242.png,Normal-5242.png,0,Normal/images,Normal/masks
+265,COVID-1231.png,COVID-1231.png,2,COVID/images,COVID/masks
+266,COVID-1773.png,COVID-1773.png,2,COVID/images,COVID/masks
+267,Lung_Opacity-3339.png,Lung_Opacity-3339.png,1,Lung_Opacity/images,Lung_Opacity/masks
+268,COVID-1082.png,COVID-1082.png,2,COVID/images,COVID/masks
+269,COVID-3153.png,COVID-3153.png,2,COVID/images,COVID/masks
+270,Lung_Opacity-5891.png,Lung_Opacity-5891.png,1,Lung_Opacity/images,Lung_Opacity/masks
+271,Lung_Opacity-4940.png,Lung_Opacity-4940.png,1,Lung_Opacity/images,Lung_Opacity/masks
+272,COVID-95.png,COVID-95.png,2,COVID/images,COVID/masks
+273,Normal-3633.png,Normal-3633.png,0,Normal/images,Normal/masks
+274,Viral Pneumonia-129.png,Viral Pneumonia-129.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+275,COVID-58.png,COVID-58.png,2,COVID/images,COVID/masks
+276,COVID-2354.png,COVID-2354.png,2,COVID/images,COVID/masks
+277,Normal-7741.png,Normal-7741.png,0,Normal/images,Normal/masks
+278,Lung_Opacity-1491.png,Lung_Opacity-1491.png,1,Lung_Opacity/images,Lung_Opacity/masks
+279,Viral Pneumonia-356.png,Viral Pneumonia-356.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+280,Lung_Opacity-5739.png,Lung_Opacity-5739.png,1,Lung_Opacity/images,Lung_Opacity/masks
+281,COVID-3258.png,COVID-3258.png,2,COVID/images,COVID/masks
+282,Normal-9946.png,Normal-9946.png,0,Normal/images,Normal/masks
+283,Viral Pneumonia-214.png,Viral Pneumonia-214.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+284,COVID-62.png,COVID-62.png,2,COVID/images,COVID/masks
+285,COVID-778.png,COVID-778.png,2,COVID/images,COVID/masks
+286,COVID-3059.png,COVID-3059.png,2,COVID/images,COVID/masks
+287,Normal-1850.png,Normal-1850.png,0,Normal/images,Normal/masks
+288,Viral Pneumonia-1036.png,Viral Pneumonia-1036.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+289,Normal-4362.png,Normal-4362.png,0,Normal/images,Normal/masks
+290,COVID-1492.png,COVID-1492.png,2,COVID/images,COVID/masks
+291,Normal-2883.png,Normal-2883.png,0,Normal/images,Normal/masks
+292,Normal-5864.png,Normal-5864.png,0,Normal/images,Normal/masks
+293,COVID-2006.png,COVID-2006.png,2,COVID/images,COVID/masks
+294,Normal-9214.png,Normal-9214.png,0,Normal/images,Normal/masks
+295,COVID-2255.png,COVID-2255.png,2,COVID/images,COVID/masks
+296,COVID-2588.png,COVID-2588.png,2,COVID/images,COVID/masks
+297,Lung_Opacity-1314.png,Lung_Opacity-1314.png,1,Lung_Opacity/images,Lung_Opacity/masks
+298,COVID-3093.png,COVID-3093.png,2,COVID/images,COVID/masks
+299,Viral Pneumonia-849.png,Viral Pneumonia-849.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+300,Normal-8191.png,Normal-8191.png,0,Normal/images,Normal/masks
+301,Normal-5679.png,Normal-5679.png,0,Normal/images,Normal/masks
+302,Normal-7467.png,Normal-7467.png,0,Normal/images,Normal/masks
+303,Normal-9454.png,Normal-9454.png,0,Normal/images,Normal/masks
+304,Normal-6145.png,Normal-6145.png,0,Normal/images,Normal/masks
+305,Normal-7673.png,Normal-7673.png,0,Normal/images,Normal/masks
+306,Normal-3298.png,Normal-3298.png,0,Normal/images,Normal/masks
+307,Normal-9078.png,Normal-9078.png,0,Normal/images,Normal/masks
+308,Normal-10005.png,Normal-10005.png,0,Normal/images,Normal/masks
+309,Viral Pneumonia-677.png,Viral Pneumonia-677.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+310,Normal-5497.png,Normal-5497.png,0,Normal/images,Normal/masks
+311,COVID-1314.png,COVID-1314.png,2,COVID/images,COVID/masks
+312,COVID-449.png,COVID-449.png,2,COVID/images,COVID/masks
+313,Lung_Opacity-4234.png,Lung_Opacity-4234.png,1,Lung_Opacity/images,Lung_Opacity/masks
+314,Lung_Opacity-911.png,Lung_Opacity-911.png,1,Lung_Opacity/images,Lung_Opacity/masks
+315,Lung_Opacity-5321.png,Lung_Opacity-5321.png,1,Lung_Opacity/images,Lung_Opacity/masks
+316,Normal-2059.png,Normal-2059.png,0,Normal/images,Normal/masks
+317,Normal-7062.png,Normal-7062.png,0,Normal/images,Normal/masks
+318,COVID-3006.png,COVID-3006.png,2,COVID/images,COVID/masks
+319,Lung_Opacity-1998.png,Lung_Opacity-1998.png,1,Lung_Opacity/images,Lung_Opacity/masks
+320,Viral Pneumonia-124.png,Viral Pneumonia-124.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+321,Viral Pneumonia-565.png,Viral Pneumonia-565.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+322,COVID-3372.png,COVID-3372.png,2,COVID/images,COVID/masks
+323,Lung_Opacity-4733.png,Lung_Opacity-4733.png,1,Lung_Opacity/images,Lung_Opacity/masks
+324,COVID-3202.png,COVID-3202.png,2,COVID/images,COVID/masks
+325,COVID-1937.png,COVID-1937.png,2,COVID/images,COVID/masks
+326,Normal-5114.png,Normal-5114.png,0,Normal/images,Normal/masks
+327,Normal-2184.png,Normal-2184.png,0,Normal/images,Normal/masks
+328,Normal-4786.png,Normal-4786.png,0,Normal/images,Normal/masks
+329,Normal-8913.png,Normal-8913.png,0,Normal/images,Normal/masks
+330,Viral Pneumonia-446.png,Viral Pneumonia-446.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+331,Lung_Opacity-4393.png,Lung_Opacity-4393.png,1,Lung_Opacity/images,Lung_Opacity/masks
+332,Viral Pneumonia-1278.png,Viral Pneumonia-1278.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+333,Lung_Opacity-3279.png,Lung_Opacity-3279.png,1,Lung_Opacity/images,Lung_Opacity/masks
+334,COVID-1954.png,COVID-1954.png,2,COVID/images,COVID/masks
+335,COVID-1568.png,COVID-1568.png,2,COVID/images,COVID/masks
+336,Normal-7287.png,Normal-7287.png,0,Normal/images,Normal/masks
+337,Normal-1966.png,Normal-1966.png,0,Normal/images,Normal/masks
+338,Normal-439.png,Normal-439.png,0,Normal/images,Normal/masks
+339,Normal-8131.png,Normal-8131.png,0,Normal/images,Normal/masks
+340,Lung_Opacity-2341.png,Lung_Opacity-2341.png,1,Lung_Opacity/images,Lung_Opacity/masks
+341,COVID-3437.png,COVID-3437.png,2,COVID/images,COVID/masks
+342,Normal-5769.png,Normal-5769.png,0,Normal/images,Normal/masks
+343,COVID-70.png,COVID-70.png,2,COVID/images,COVID/masks
+344,Lung_Opacity-3476.png,Lung_Opacity-3476.png,1,Lung_Opacity/images,Lung_Opacity/masks
+345,COVID-2698.png,COVID-2698.png,2,COVID/images,COVID/masks
+346,Normal-6412.png,Normal-6412.png,0,Normal/images,Normal/masks
+347,Lung_Opacity-4768.png,Lung_Opacity-4768.png,1,Lung_Opacity/images,Lung_Opacity/masks
+348,Normal-3357.png,Normal-3357.png,0,Normal/images,Normal/masks
+349,COVID-120.png,COVID-120.png,2,COVID/images,COVID/masks
+350,Normal-4872.png,Normal-4872.png,0,Normal/images,Normal/masks
+351,COVID-2538.png,COVID-2538.png,2,COVID/images,COVID/masks
+352,Lung_Opacity-5985.png,Lung_Opacity-5985.png,1,Lung_Opacity/images,Lung_Opacity/masks
+353,Lung_Opacity-32.png,Lung_Opacity-32.png,1,Lung_Opacity/images,Lung_Opacity/masks
+354,Lung_Opacity-1525.png,Lung_Opacity-1525.png,1,Lung_Opacity/images,Lung_Opacity/masks
+355,COVID-2247.png,COVID-2247.png,2,COVID/images,COVID/masks
+356,Normal-8794.png,Normal-8794.png,0,Normal/images,Normal/masks
+357,Normal-1534.png,Normal-1534.png,0,Normal/images,Normal/masks
+358,Viral Pneumonia-525.png,Viral Pneumonia-525.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+359,Normal-5516.png,Normal-5516.png,0,Normal/images,Normal/masks
+360,COVID-2174.png,COVID-2174.png,2,COVID/images,COVID/masks
+361,COVID-2881.png,COVID-2881.png,2,COVID/images,COVID/masks
+362,COVID-2692.png,COVID-2692.png,2,COVID/images,COVID/masks
+363,COVID-1043.png,COVID-1043.png,2,COVID/images,COVID/masks
+364,Normal-1455.png,Normal-1455.png,0,Normal/images,Normal/masks
+365,Lung_Opacity-361.png,Lung_Opacity-361.png,1,Lung_Opacity/images,Lung_Opacity/masks
+366,COVID-2137.png,COVID-2137.png,2,COVID/images,COVID/masks
+367,COVID-2675.png,COVID-2675.png,2,COVID/images,COVID/masks
+368,Normal-4298.png,Normal-4298.png,0,Normal/images,Normal/masks
+369,COVID-3524.png,COVID-3524.png,2,COVID/images,COVID/masks
+370,Viral Pneumonia-1330.png,Viral Pneumonia-1330.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+371,COVID-2637.png,COVID-2637.png,2,COVID/images,COVID/masks
+372,Normal-6519.png,Normal-6519.png,0,Normal/images,Normal/masks
+373,Normal-2568.png,Normal-2568.png,0,Normal/images,Normal/masks
+374,Normal-401.png,Normal-401.png,0,Normal/images,Normal/masks
+375,Lung_Opacity-1292.png,Lung_Opacity-1292.png,1,Lung_Opacity/images,Lung_Opacity/masks
+376,Normal-4521.png,Normal-4521.png,0,Normal/images,Normal/masks
+377,COVID-2409.png,COVID-2409.png,2,COVID/images,COVID/masks
+378,Lung_Opacity-3293.png,Lung_Opacity-3293.png,1,Lung_Opacity/images,Lung_Opacity/masks
+379,COVID-508.png,COVID-508.png,2,COVID/images,COVID/masks
+380,Normal-7751.png,Normal-7751.png,0,Normal/images,Normal/masks
+381,COVID-533.png,COVID-533.png,2,COVID/images,COVID/masks
+382,Lung_Opacity-2527.png,Lung_Opacity-2527.png,1,Lung_Opacity/images,Lung_Opacity/masks
+383,Lung_Opacity-2180.png,Lung_Opacity-2180.png,1,Lung_Opacity/images,Lung_Opacity/masks
+384,Lung_Opacity-5790.png,Lung_Opacity-5790.png,1,Lung_Opacity/images,Lung_Opacity/masks
+385,COVID-119.png,COVID-119.png,2,COVID/images,COVID/masks
+386,Viral Pneumonia-537.png,Viral Pneumonia-537.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+387,COVID-1279.png,COVID-1279.png,2,COVID/images,COVID/masks
+388,COVID-3126.png,COVID-3126.png,2,COVID/images,COVID/masks
+389,COVID-1670.png,COVID-1670.png,2,COVID/images,COVID/masks
+390,COVID-519.png,COVID-519.png,2,COVID/images,COVID/masks
+391,Viral Pneumonia-680.png,Viral Pneumonia-680.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+392,Viral Pneumonia-549.png,Viral Pneumonia-549.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+393,COVID-3408.png,COVID-3408.png,2,COVID/images,COVID/masks
+394,Normal-5649.png,Normal-5649.png,0,Normal/images,Normal/masks
+395,Viral Pneumonia-209.png,Viral Pneumonia-209.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+396,COVID-3599.png,COVID-3599.png,2,COVID/images,COVID/masks
+397,Lung_Opacity-526.png,Lung_Opacity-526.png,1,Lung_Opacity/images,Lung_Opacity/masks
+398,COVID-3338.png,COVID-3338.png,2,COVID/images,COVID/masks
+399,Lung_Opacity-4237.png,Lung_Opacity-4237.png,1,Lung_Opacity/images,Lung_Opacity/masks
+400,COVID-2085.png,COVID-2085.png,2,COVID/images,COVID/masks
+401,COVID-1494.png,COVID-1494.png,2,COVID/images,COVID/masks
+402,COVID-332.png,COVID-332.png,2,COVID/images,COVID/masks
+403,Viral Pneumonia-258.png,Viral Pneumonia-258.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+404,Viral Pneumonia-1050.png,Viral Pneumonia-1050.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+405,COVID-828.png,COVID-828.png,2,COVID/images,COVID/masks
+406,Normal-6149.png,Normal-6149.png,0,Normal/images,Normal/masks
+407,COVID-1368.png,COVID-1368.png,2,COVID/images,COVID/masks
+408,COVID-647.png,COVID-647.png,2,COVID/images,COVID/masks
+409,COVID-2263.png,COVID-2263.png,2,COVID/images,COVID/masks
+410,Viral Pneumonia-654.png,Viral Pneumonia-654.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+411,Viral Pneumonia-39.png,Viral Pneumonia-39.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+412,COVID-1881.png,COVID-1881.png,2,COVID/images,COVID/masks
+413,Viral Pneumonia-1101.png,Viral Pneumonia-1101.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+414,Viral Pneumonia-1276.png,Viral Pneumonia-1276.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+415,Lung_Opacity-2893.png,Lung_Opacity-2893.png,1,Lung_Opacity/images,Lung_Opacity/masks
+416,Normal-5868.png,Normal-5868.png,0,Normal/images,Normal/masks
+417,Normal-4102.png,Normal-4102.png,0,Normal/images,Normal/masks
+418,Viral Pneumonia-84.png,Viral Pneumonia-84.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+419,Viral Pneumonia-248.png,Viral Pneumonia-248.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+420,Normal-5256.png,Normal-5256.png,0,Normal/images,Normal/masks
+421,Normal-3214.png,Normal-3214.png,0,Normal/images,Normal/masks
+422,COVID-486.png,COVID-486.png,2,COVID/images,COVID/masks
+423,Normal-1542.png,Normal-1542.png,0,Normal/images,Normal/masks
+424,Normal-1048.png,Normal-1048.png,0,Normal/images,Normal/masks
+425,Normal-8040.png,Normal-8040.png,0,Normal/images,Normal/masks
+426,Normal-6985.png,Normal-6985.png,0,Normal/images,Normal/masks
+427,COVID-2955.png,COVID-2955.png,2,COVID/images,COVID/masks
+428,Normal-9444.png,Normal-9444.png,0,Normal/images,Normal/masks
+429,Normal-2815.png,Normal-2815.png,0,Normal/images,Normal/masks
+430,COVID-2187.png,COVID-2187.png,2,COVID/images,COVID/masks
+431,COVID-2315.png,COVID-2315.png,2,COVID/images,COVID/masks
+432,COVID-941.png,COVID-941.png,2,COVID/images,COVID/masks
+433,COVID-178.png,COVID-178.png,2,COVID/images,COVID/masks
+434,Viral Pneumonia-1299.png,Viral Pneumonia-1299.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+435,COVID-992.png,COVID-992.png,2,COVID/images,COVID/masks
+436,Normal-8585.png,Normal-8585.png,0,Normal/images,Normal/masks
+437,Viral Pneumonia-884.png,Viral Pneumonia-884.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+438,Lung_Opacity-2408.png,Lung_Opacity-2408.png,1,Lung_Opacity/images,Lung_Opacity/masks
+439,COVID-1424.png,COVID-1424.png,2,COVID/images,COVID/masks
+440,Normal-4720.png,Normal-4720.png,0,Normal/images,Normal/masks
+441,Viral Pneumonia-383.png,Viral Pneumonia-383.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+442,Lung_Opacity-326.png,Lung_Opacity-326.png,1,Lung_Opacity/images,Lung_Opacity/masks
+443,Lung_Opacity-4045.png,Lung_Opacity-4045.png,1,Lung_Opacity/images,Lung_Opacity/masks
+444,Normal-977.png,Normal-977.png,0,Normal/images,Normal/masks
+445,Normal-7777.png,Normal-7777.png,0,Normal/images,Normal/masks
+446,COVID-1053.png,COVID-1053.png,2,COVID/images,COVID/masks
+447,Lung_Opacity-5661.png,Lung_Opacity-5661.png,1,Lung_Opacity/images,Lung_Opacity/masks
+448,Viral Pneumonia-54.png,Viral Pneumonia-54.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+449,Normal-6686.png,Normal-6686.png,0,Normal/images,Normal/masks
+450,COVID-1751.png,COVID-1751.png,2,COVID/images,COVID/masks
+451,COVID-1342.png,COVID-1342.png,2,COVID/images,COVID/masks
+452,Lung_Opacity-3446.png,Lung_Opacity-3446.png,1,Lung_Opacity/images,Lung_Opacity/masks
+453,COVID-2128.png,COVID-2128.png,2,COVID/images,COVID/masks
+454,COVID-1521.png,COVID-1521.png,2,COVID/images,COVID/masks
+455,Normal-9477.png,Normal-9477.png,0,Normal/images,Normal/masks
+456,Viral Pneumonia-845.png,Viral Pneumonia-845.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+457,Normal-4678.png,Normal-4678.png,0,Normal/images,Normal/masks
+458,Normal-2687.png,Normal-2687.png,0,Normal/images,Normal/masks
+459,Viral Pneumonia-651.png,Viral Pneumonia-651.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+460,Normal-520.png,Normal-520.png,0,Normal/images,Normal/masks
+461,Viral Pneumonia-634.png,Viral Pneumonia-634.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+462,Lung_Opacity-3589.png,Lung_Opacity-3589.png,1,Lung_Opacity/images,Lung_Opacity/masks
+463,COVID-1265.png,COVID-1265.png,2,COVID/images,COVID/masks
+464,COVID-2115.png,COVID-2115.png,2,COVID/images,COVID/masks
+465,COVID-822.png,COVID-822.png,2,COVID/images,COVID/masks
+466,Lung_Opacity-3382.png,Lung_Opacity-3382.png,1,Lung_Opacity/images,Lung_Opacity/masks
+467,Lung_Opacity-449.png,Lung_Opacity-449.png,1,Lung_Opacity/images,Lung_Opacity/masks
+468,COVID-2457.png,COVID-2457.png,2,COVID/images,COVID/masks
+469,Normal-4944.png,Normal-4944.png,0,Normal/images,Normal/masks
+470,COVID-1093.png,COVID-1093.png,2,COVID/images,COVID/masks
+471,Viral Pneumonia-699.png,Viral Pneumonia-699.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+472,Viral Pneumonia-933.png,Viral Pneumonia-933.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+473,Lung_Opacity-3398.png,Lung_Opacity-3398.png,1,Lung_Opacity/images,Lung_Opacity/masks
+474,Viral Pneumonia-1176.png,Viral Pneumonia-1176.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+475,COVID-3076.png,COVID-3076.png,2,COVID/images,COVID/masks
+476,COVID-305.png,COVID-305.png,2,COVID/images,COVID/masks
+477,Normal-8617.png,Normal-8617.png,0,Normal/images,Normal/masks
+478,Viral Pneumonia-512.png,Viral Pneumonia-512.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+479,COVID-615.png,COVID-615.png,2,COVID/images,COVID/masks
+480,Viral Pneumonia-599.png,Viral Pneumonia-599.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+481,Viral Pneumonia-935.png,Viral Pneumonia-935.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+482,Viral Pneumonia-583.png,Viral Pneumonia-583.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+483,COVID-2494.png,COVID-2494.png,2,COVID/images,COVID/masks
+484,COVID-143.png,COVID-143.png,2,COVID/images,COVID/masks
+485,Viral Pneumonia-1103.png,Viral Pneumonia-1103.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+486,COVID-3198.png,COVID-3198.png,2,COVID/images,COVID/masks
+487,Viral Pneumonia-1248.png,Viral Pneumonia-1248.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+488,COVID-329.png,COVID-329.png,2,COVID/images,COVID/masks
+489,COVID-754.png,COVID-754.png,2,COVID/images,COVID/masks
+490,COVID-870.png,COVID-870.png,2,COVID/images,COVID/masks
+491,Normal-1802.png,Normal-1802.png,0,Normal/images,Normal/masks
+492,Normal-1886.png,Normal-1886.png,0,Normal/images,Normal/masks
+493,Lung_Opacity-3699.png,Lung_Opacity-3699.png,1,Lung_Opacity/images,Lung_Opacity/masks
+494,Lung_Opacity-5839.png,Lung_Opacity-5839.png,1,Lung_Opacity/images,Lung_Opacity/masks
+495,Lung_Opacity-5810.png,Lung_Opacity-5810.png,1,Lung_Opacity/images,Lung_Opacity/masks
+496,COVID-1536.png,COVID-1536.png,2,COVID/images,COVID/masks
+497,COVID-2097.png,COVID-2097.png,2,COVID/images,COVID/masks
+498,COVID-297.png,COVID-297.png,2,COVID/images,COVID/masks
+499,Normal-5655.png,Normal-5655.png,0,Normal/images,Normal/masks
+500,Normal-6617.png,Normal-6617.png,0,Normal/images,Normal/masks
+501,Viral Pneumonia-1140.png,Viral Pneumonia-1140.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+502,COVID-1836.png,COVID-1836.png,2,COVID/images,COVID/masks
+503,Normal-2053.png,Normal-2053.png,0,Normal/images,Normal/masks
+504,Viral Pneumonia-755.png,Viral Pneumonia-755.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+505,Normal-10028.png,Normal-10028.png,0,Normal/images,Normal/masks
+506,COVID-467.png,COVID-467.png,2,COVID/images,COVID/masks
+507,Normal-6304.png,Normal-6304.png,0,Normal/images,Normal/masks
+508,Viral Pneumonia-126.png,Viral Pneumonia-126.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+509,COVID-3366.png,COVID-3366.png,2,COVID/images,COVID/masks
+510,COVID-2287.png,COVID-2287.png,2,COVID/images,COVID/masks
+511,Lung_Opacity-953.png,Lung_Opacity-953.png,1,Lung_Opacity/images,Lung_Opacity/masks
+512,COVID-1268.png,COVID-1268.png,2,COVID/images,COVID/masks
+513,COVID-3375.png,COVID-3375.png,2,COVID/images,COVID/masks
+514,Normal-9958.png,Normal-9958.png,0,Normal/images,Normal/masks
+515,Normal-2401.png,Normal-2401.png,0,Normal/images,Normal/masks
+516,COVID-2481.png,COVID-2481.png,2,COVID/images,COVID/masks
+517,COVID-2655.png,COVID-2655.png,2,COVID/images,COVID/masks
+518,Normal-5111.png,Normal-5111.png,0,Normal/images,Normal/masks
+519,Normal-9275.png,Normal-9275.png,0,Normal/images,Normal/masks
+520,Normal-9263.png,Normal-9263.png,0,Normal/images,Normal/masks
+521,Normal-2633.png,Normal-2633.png,0,Normal/images,Normal/masks
+522,Normal-8769.png,Normal-8769.png,0,Normal/images,Normal/masks
+523,Normal-6454.png,Normal-6454.png,0,Normal/images,Normal/masks
+524,Normal-5104.png,Normal-5104.png,0,Normal/images,Normal/masks
+525,Normal-5102.png,Normal-5102.png,0,Normal/images,Normal/masks
+526,Normal-430.png,Normal-430.png,0,Normal/images,Normal/masks
+527,COVID-857.png,COVID-857.png,2,COVID/images,COVID/masks
+528,COVID-2521.png,COVID-2521.png,2,COVID/images,COVID/masks
+529,Viral Pneumonia-11.png,Viral Pneumonia-11.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+530,Normal-7272.png,Normal-7272.png,0,Normal/images,Normal/masks
+531,Viral Pneumonia-462.png,Viral Pneumonia-462.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+532,Normal-419.png,Normal-419.png,0,Normal/images,Normal/masks
+533,Normal-5772.png,Normal-5772.png,0,Normal/images,Normal/masks
+534,Viral Pneumonia-264.png,Viral Pneumonia-264.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+535,Lung_Opacity-5656.png,Lung_Opacity-5656.png,1,Lung_Opacity/images,Lung_Opacity/masks
+536,Normal-888.png,Normal-888.png,0,Normal/images,Normal/masks
+537,Viral Pneumonia-662.png,Viral Pneumonia-662.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+538,Viral Pneumonia-759.png,Viral Pneumonia-759.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+539,Lung_Opacity-5812.png,Lung_Opacity-5812.png,1,Lung_Opacity/images,Lung_Opacity/masks
+540,Normal-3303.png,Normal-3303.png,0,Normal/images,Normal/masks
+541,Lung_Opacity-4585.png,Lung_Opacity-4585.png,1,Lung_Opacity/images,Lung_Opacity/masks
+542,COVID-2479.png,COVID-2479.png,2,COVID/images,COVID/masks
+543,Viral Pneumonia-940.png,Viral Pneumonia-940.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+544,COVID-1110.png,COVID-1110.png,2,COVID/images,COVID/masks
+545,Normal-3486.png,Normal-3486.png,0,Normal/images,Normal/masks
+546,Lung_Opacity-110.png,Lung_Opacity-110.png,1,Lung_Opacity/images,Lung_Opacity/masks
+547,COVID-3462.png,COVID-3462.png,2,COVID/images,COVID/masks
+548,Viral Pneumonia-833.png,Viral Pneumonia-833.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+549,Lung_Opacity-2606.png,Lung_Opacity-2606.png,1,Lung_Opacity/images,Lung_Opacity/masks
+550,Normal-5846.png,Normal-5846.png,0,Normal/images,Normal/masks
+551,Lung_Opacity-5720.png,Lung_Opacity-5720.png,1,Lung_Opacity/images,Lung_Opacity/masks
+552,Viral Pneumonia-1024.png,Viral Pneumonia-1024.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+553,COVID-2618.png,COVID-2618.png,2,COVID/images,COVID/masks
+554,Normal-7445.png,Normal-7445.png,0,Normal/images,Normal/masks
+555,Lung_Opacity-5040.png,Lung_Opacity-5040.png,1,Lung_Opacity/images,Lung_Opacity/masks
+556,Viral Pneumonia-1190.png,Viral Pneumonia-1190.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+557,Normal-1019.png,Normal-1019.png,0,Normal/images,Normal/masks
+558,COVID-3270.png,COVID-3270.png,2,COVID/images,COVID/masks
+559,Normal-8308.png,Normal-8308.png,0,Normal/images,Normal/masks
+560,Normal-9796.png,Normal-9796.png,0,Normal/images,Normal/masks
+561,Normal-4315.png,Normal-4315.png,0,Normal/images,Normal/masks
+562,COVID-1343.png,COVID-1343.png,2,COVID/images,COVID/masks
+563,Viral Pneumonia-1046.png,Viral Pneumonia-1046.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+564,Lung_Opacity-5587.png,Lung_Opacity-5587.png,1,Lung_Opacity/images,Lung_Opacity/masks
+565,Normal-7954.png,Normal-7954.png,0,Normal/images,Normal/masks
+566,COVID-2922.png,COVID-2922.png,2,COVID/images,COVID/masks
+567,Viral Pneumonia-21.png,Viral Pneumonia-21.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+568,Normal-2847.png,Normal-2847.png,0,Normal/images,Normal/masks
+569,Viral Pneumonia-1290.png,Viral Pneumonia-1290.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+570,Normal-726.png,Normal-726.png,0,Normal/images,Normal/masks
+571,COVID-2697.png,COVID-2697.png,2,COVID/images,COVID/masks
+572,COVID-739.png,COVID-739.png,2,COVID/images,COVID/masks
+573,Viral Pneumonia-846.png,Viral Pneumonia-846.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+574,COVID-425.png,COVID-425.png,2,COVID/images,COVID/masks
+575,Lung_Opacity-5131.png,Lung_Opacity-5131.png,1,Lung_Opacity/images,Lung_Opacity/masks
+576,Normal-2862.png,Normal-2862.png,0,Normal/images,Normal/masks
+577,Viral Pneumonia-877.png,Viral Pneumonia-877.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+578,COVID-999.png,COVID-999.png,2,COVID/images,COVID/masks
+579,COVID-1177.png,COVID-1177.png,2,COVID/images,COVID/masks
+580,COVID-666.png,COVID-666.png,2,COVID/images,COVID/masks
+581,Lung_Opacity-1801.png,Lung_Opacity-1801.png,1,Lung_Opacity/images,Lung_Opacity/masks
+582,COVID-1555.png,COVID-1555.png,2,COVID/images,COVID/masks
+583,COVID-3043.png,COVID-3043.png,2,COVID/images,COVID/masks
+584,Lung_Opacity-2160.png,Lung_Opacity-2160.png,1,Lung_Opacity/images,Lung_Opacity/masks
+585,Lung_Opacity-5691.png,Lung_Opacity-5691.png,1,Lung_Opacity/images,Lung_Opacity/masks
+586,COVID-2600.png,COVID-2600.png,2,COVID/images,COVID/masks
+587,COVID-1696.png,COVID-1696.png,2,COVID/images,COVID/masks
+588,Normal-4604.png,Normal-4604.png,0,Normal/images,Normal/masks
+589,Normal-6022.png,Normal-6022.png,0,Normal/images,Normal/masks
+590,Normal-2094.png,Normal-2094.png,0,Normal/images,Normal/masks
+591,Normal-1131.png,Normal-1131.png,0,Normal/images,Normal/masks
+592,Viral Pneumonia-557.png,Viral Pneumonia-557.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+593,Lung_Opacity-5554.png,Lung_Opacity-5554.png,1,Lung_Opacity/images,Lung_Opacity/masks
+594,Lung_Opacity-503.png,Lung_Opacity-503.png,1,Lung_Opacity/images,Lung_Opacity/masks
+595,COVID-868.png,COVID-868.png,2,COVID/images,COVID/masks
+596,Viral Pneumonia-590.png,Viral Pneumonia-590.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+597,Viral Pneumonia-98.png,Viral Pneumonia-98.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+598,COVID-1276.png,COVID-1276.png,2,COVID/images,COVID/masks
+599,Normal-4497.png,Normal-4497.png,0,Normal/images,Normal/masks
+600,Normal-7307.png,Normal-7307.png,0,Normal/images,Normal/masks
+601,COVID-129.png,COVID-129.png,2,COVID/images,COVID/masks
+602,Normal-5644.png,Normal-5644.png,0,Normal/images,Normal/masks
+603,COVID-2019.png,COVID-2019.png,2,COVID/images,COVID/masks
+604,Lung_Opacity-2566.png,Lung_Opacity-2566.png,1,Lung_Opacity/images,Lung_Opacity/masks
+605,Viral Pneumonia-1084.png,Viral Pneumonia-1084.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+606,Normal-9864.png,Normal-9864.png,0,Normal/images,Normal/masks
+607,Viral Pneumonia-1154.png,Viral Pneumonia-1154.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+608,Lung_Opacity-2946.png,Lung_Opacity-2946.png,1,Lung_Opacity/images,Lung_Opacity/masks
+609,Viral Pneumonia-1149.png,Viral Pneumonia-1149.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+610,Normal-7904.png,Normal-7904.png,0,Normal/images,Normal/masks
+611,Normal-12.png,Normal-12.png,0,Normal/images,Normal/masks
+612,Normal-3212.png,Normal-3212.png,0,Normal/images,Normal/masks
+613,COVID-573.png,COVID-573.png,2,COVID/images,COVID/masks
+614,Viral Pneumonia-159.png,Viral Pneumonia-159.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+615,Lung_Opacity-2904.png,Lung_Opacity-2904.png,1,Lung_Opacity/images,Lung_Opacity/masks
+616,Viral Pneumonia-416.png,Viral Pneumonia-416.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+617,COVID-2186.png,COVID-2186.png,2,COVID/images,COVID/masks
+618,Normal-3377.png,Normal-3377.png,0,Normal/images,Normal/masks
+619,Normal-285.png,Normal-285.png,0,Normal/images,Normal/masks
+620,Viral Pneumonia-15.png,Viral Pneumonia-15.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+621,Normal-9514.png,Normal-9514.png,0,Normal/images,Normal/masks
+622,COVID-469.png,COVID-469.png,2,COVID/images,COVID/masks
+623,COVID-40.png,COVID-40.png,2,COVID/images,COVID/masks
+624,COVID-1326.png,COVID-1326.png,2,COVID/images,COVID/masks
+625,Lung_Opacity-5396.png,Lung_Opacity-5396.png,1,Lung_Opacity/images,Lung_Opacity/masks
+626,COVID-2927.png,COVID-2927.png,2,COVID/images,COVID/masks
+627,Viral Pneumonia-887.png,Viral Pneumonia-887.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+628,Normal-1419.png,Normal-1419.png,0,Normal/images,Normal/masks
+629,Normal-8348.png,Normal-8348.png,0,Normal/images,Normal/masks
+630,COVID-2121.png,COVID-2121.png,2,COVID/images,COVID/masks
+631,Lung_Opacity-4542.png,Lung_Opacity-4542.png,1,Lung_Opacity/images,Lung_Opacity/masks
+632,Viral Pneumonia-72.png,Viral Pneumonia-72.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+633,Normal-4781.png,Normal-4781.png,0,Normal/images,Normal/masks
+634,COVID-107.png,COVID-107.png,2,COVID/images,COVID/masks
+635,Normal-7169.png,Normal-7169.png,0,Normal/images,Normal/masks
+636,COVID-2860.png,COVID-2860.png,2,COVID/images,COVID/masks
+637,COVID-965.png,COVID-965.png,2,COVID/images,COVID/masks
+638,Normal-420.png,Normal-420.png,0,Normal/images,Normal/masks
+639,Lung_Opacity-5325.png,Lung_Opacity-5325.png,1,Lung_Opacity/images,Lung_Opacity/masks
+640,Normal-5804.png,Normal-5804.png,0,Normal/images,Normal/masks
+641,COVID-434.png,COVID-434.png,2,COVID/images,COVID/masks
+642,COVID-241.png,COVID-241.png,2,COVID/images,COVID/masks
+643,Lung_Opacity-3753.png,Lung_Opacity-3753.png,1,Lung_Opacity/images,Lung_Opacity/masks
+644,COVID-79.png,COVID-79.png,2,COVID/images,COVID/masks
+645,Normal-9669.png,Normal-9669.png,0,Normal/images,Normal/masks
+646,Viral Pneumonia-399.png,Viral Pneumonia-399.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+647,Normal-2762.png,Normal-2762.png,0,Normal/images,Normal/masks
+648,Lung_Opacity-3185.png,Lung_Opacity-3185.png,1,Lung_Opacity/images,Lung_Opacity/masks
+649,Normal-8180.png,Normal-8180.png,0,Normal/images,Normal/masks
+650,COVID-3141.png,COVID-3141.png,2,COVID/images,COVID/masks
+651,COVID-138.png,COVID-138.png,2,COVID/images,COVID/masks
+652,Normal-8587.png,Normal-8587.png,0,Normal/images,Normal/masks
+653,Lung_Opacity-2803.png,Lung_Opacity-2803.png,1,Lung_Opacity/images,Lung_Opacity/masks
+654,Normal-4905.png,Normal-4905.png,0,Normal/images,Normal/masks
+655,COVID-818.png,COVID-818.png,2,COVID/images,COVID/masks
+656,Normal-603.png,Normal-603.png,0,Normal/images,Normal/masks
+657,COVID-1709.png,COVID-1709.png,2,COVID/images,COVID/masks
+658,COVID-1583.png,COVID-1583.png,2,COVID/images,COVID/masks
+659,Normal-4287.png,Normal-4287.png,0,Normal/images,Normal/masks
+660,Normal-1501.png,Normal-1501.png,0,Normal/images,Normal/masks
+661,Normal-7302.png,Normal-7302.png,0,Normal/images,Normal/masks
+662,COVID-1580.png,COVID-1580.png,2,COVID/images,COVID/masks
+663,Normal-9169.png,Normal-9169.png,0,Normal/images,Normal/masks
+664,Viral Pneumonia-978.png,Viral Pneumonia-978.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+665,COVID-1129.png,COVID-1129.png,2,COVID/images,COVID/masks
+666,Normal-6044.png,Normal-6044.png,0,Normal/images,Normal/masks
+667,Viral Pneumonia-1291.png,Viral Pneumonia-1291.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+668,Normal-9957.png,Normal-9957.png,0,Normal/images,Normal/masks
+669,Normal-499.png,Normal-499.png,0,Normal/images,Normal/masks
+670,Normal-5086.png,Normal-5086.png,0,Normal/images,Normal/masks
+671,Normal-9188.png,Normal-9188.png,0,Normal/images,Normal/masks
+672,COVID-282.png,COVID-282.png,2,COVID/images,COVID/masks
+673,Lung_Opacity-3119.png,Lung_Opacity-3119.png,1,Lung_Opacity/images,Lung_Opacity/masks
+674,Viral Pneumonia-799.png,Viral Pneumonia-799.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+675,Normal-4777.png,Normal-4777.png,0,Normal/images,Normal/masks
+676,COVID-2113.png,COVID-2113.png,2,COVID/images,COVID/masks
+677,Normal-7317.png,Normal-7317.png,0,Normal/images,Normal/masks
+678,COVID-2748.png,COVID-2748.png,2,COVID/images,COVID/masks
+679,COVID-3514.png,COVID-3514.png,2,COVID/images,COVID/masks
+680,Viral Pneumonia-377.png,Viral Pneumonia-377.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+681,Normal-4754.png,Normal-4754.png,0,Normal/images,Normal/masks
+682,COVID-3416.png,COVID-3416.png,2,COVID/images,COVID/masks
+683,Normal-4915.png,Normal-4915.png,0,Normal/images,Normal/masks
+684,Normal-5067.png,Normal-5067.png,0,Normal/images,Normal/masks
+685,COVID-3395.png,COVID-3395.png,2,COVID/images,COVID/masks
+686,Normal-5195.png,Normal-5195.png,0,Normal/images,Normal/masks
+687,COVID-326.png,COVID-326.png,2,COVID/images,COVID/masks
+688,COVID-561.png,COVID-561.png,2,COVID/images,COVID/masks
+689,Viral Pneumonia-1007.png,Viral Pneumonia-1007.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+690,COVID-1796.png,COVID-1796.png,2,COVID/images,COVID/masks
+691,Normal-9011.png,Normal-9011.png,0,Normal/images,Normal/masks
+692,COVID-1892.png,COVID-1892.png,2,COVID/images,COVID/masks
+693,Normal-243.png,Normal-243.png,0,Normal/images,Normal/masks
+694,COVID-1023.png,COVID-1023.png,2,COVID/images,COVID/masks
+695,Viral Pneumonia-1081.png,Viral Pneumonia-1081.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+696,Lung_Opacity-5445.png,Lung_Opacity-5445.png,1,Lung_Opacity/images,Lung_Opacity/masks
+697,COVID-2071.png,COVID-2071.png,2,COVID/images,COVID/masks
+698,Viral Pneumonia-1200.png,Viral Pneumonia-1200.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+699,COVID-3303.png,COVID-3303.png,2,COVID/images,COVID/masks
+700,Lung_Opacity-4983.png,Lung_Opacity-4983.png,1,Lung_Opacity/images,Lung_Opacity/masks
+701,Lung_Opacity-3851.png,Lung_Opacity-3851.png,1,Lung_Opacity/images,Lung_Opacity/masks
+702,Normal-2975.png,Normal-2975.png,0,Normal/images,Normal/masks
+703,COVID-2541.png,COVID-2541.png,2,COVID/images,COVID/masks
+704,COVID-611.png,COVID-611.png,2,COVID/images,COVID/masks
+705,Normal-1494.png,Normal-1494.png,0,Normal/images,Normal/masks
+706,Lung_Opacity-3042.png,Lung_Opacity-3042.png,1,Lung_Opacity/images,Lung_Opacity/masks
+707,Lung_Opacity-3701.png,Lung_Opacity-3701.png,1,Lung_Opacity/images,Lung_Opacity/masks
+708,Normal-7853.png,Normal-7853.png,0,Normal/images,Normal/masks
+709,Viral Pneumonia-823.png,Viral Pneumonia-823.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+710,Lung_Opacity-1564.png,Lung_Opacity-1564.png,1,Lung_Opacity/images,Lung_Opacity/masks
+711,Normal-1287.png,Normal-1287.png,0,Normal/images,Normal/masks
+712,COVID-1088.png,COVID-1088.png,2,COVID/images,COVID/masks
+713,COVID-2200.png,COVID-2200.png,2,COVID/images,COVID/masks
+714,COVID-2083.png,COVID-2083.png,2,COVID/images,COVID/masks
+715,Lung_Opacity-2860.png,Lung_Opacity-2860.png,1,Lung_Opacity/images,Lung_Opacity/masks
+716,Normal-6404.png,Normal-6404.png,0,Normal/images,Normal/masks
+717,Lung_Opacity-6.png,Lung_Opacity-6.png,1,Lung_Opacity/images,Lung_Opacity/masks
+718,Normal-4142.png,Normal-4142.png,0,Normal/images,Normal/masks
+719,Normal-8523.png,Normal-8523.png,0,Normal/images,Normal/masks
+720,Normal-8011.png,Normal-8011.png,0,Normal/images,Normal/masks
+721,Normal-7414.png,Normal-7414.png,0,Normal/images,Normal/masks
+722,Viral Pneumonia-586.png,Viral Pneumonia-586.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+723,Lung_Opacity-3513.png,Lung_Opacity-3513.png,1,Lung_Opacity/images,Lung_Opacity/masks
+724,Normal-7159.png,Normal-7159.png,0,Normal/images,Normal/masks
+725,Lung_Opacity-3001.png,Lung_Opacity-3001.png,1,Lung_Opacity/images,Lung_Opacity/masks
+726,Normal-963.png,Normal-963.png,0,Normal/images,Normal/masks
+727,Lung_Opacity-4156.png,Lung_Opacity-4156.png,1,Lung_Opacity/images,Lung_Opacity/masks
+728,Normal-9439.png,Normal-9439.png,0,Normal/images,Normal/masks
+729,COVID-2108.png,COVID-2108.png,2,COVID/images,COVID/masks
+730,Viral Pneumonia-570.png,Viral Pneumonia-570.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+731,Normal-5573.png,Normal-5573.png,0,Normal/images,Normal/masks
+732,COVID-1201.png,COVID-1201.png,2,COVID/images,COVID/masks
+733,COVID-724.png,COVID-724.png,2,COVID/images,COVID/masks
+734,Lung_Opacity-1770.png,Lung_Opacity-1770.png,1,Lung_Opacity/images,Lung_Opacity/masks
+735,COVID-3130.png,COVID-3130.png,2,COVID/images,COVID/masks
+736,Viral Pneumonia-1128.png,Viral Pneumonia-1128.png,1,Viral Pneumonia/images,Viral Pneumonia/masks
+737,COVID-2726.png,COVID-2726.png,2,COVID/images,COVID/masks
+738,COVID-920.png,COVID-920.png,2,COVID/images,COVID/masks
+739,Lung_Opacity-1552.png,Lung_Opacity-1552.png,1,Lung_Opacity/images,Lung_Opacity/masks
+740,COVID-1073.png,COVID-1073.png,2,COVID/images,COVID/masks
+741,COVID-547.png,COVID-547.png,2,COVID/images,COVID/masks
+742,Normal-8660.png,Normal-8660.png,0,Normal/images,Normal/masks
+743,Normal-4797.png,Normal-4797.png,0,Normal/images,Normal/masks
+744,Normal-9555.png,Normal-9555.png,0,Normal/images,Normal/masks
+745,COVID-2438.png,COVID-2438.png,2,COVID/images,COVID/masks
+746,Normal-8156.png,Normal-8156.png,0,Normal/images,Normal/masks
+747,Lung_Opacity-2353.png,Lung_Opacity-2353.png,1,Lung_Opacity/images,Lung_Opacity/masks
+748,Lung_Opacity-254.png,Lung_Opacity-254.png,1,Lung_Opacity/images,Lung_Opacity/masks
+749,COVID-2968.png,COVID-2968.png,2,COVID/images,COVID/masks
