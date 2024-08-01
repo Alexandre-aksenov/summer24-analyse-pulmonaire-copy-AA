@@ -10,7 +10,6 @@ Example test: src/pred_dir_img_mask_10_img_from_CSV.py
 V2 : refactor for extracting a function for reading one image and mask.
 For use in Grad_CAM.
 
-The function is actually BUGGED! It returns twice the images, discarding the masks.
 """
 
 import os
