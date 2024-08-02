@@ -5,10 +5,6 @@ and as black-and-white
 from a CSV file.
 
 Called by the script of predictions.
-Example test: src/pred_dir_img_mask_10_img_from_CSV.py
-
-V2 : refactor for extracting a function for reading one image and mask.
-For use in Grad_CAM.
 """
 
 import os
@@ -58,7 +54,7 @@ def load_images(image_dir: str,
                 image_df,
                 new_size=(28, 28)):
     """
-    Fonction pour charger les images d'un dossier.
+    Load a set of masked images from a file
 
     Args:
         image_dir (str): path do data.

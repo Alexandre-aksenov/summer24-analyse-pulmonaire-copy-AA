@@ -24,7 +24,7 @@ params = {
             'class_map': {2: 'COVID', 0: 'Normal', 1: 'Non-COVID'},
             'load_img': CNNload.load_images},
     'VGG': {'new_size': (128, 128),
-            'file_model': "VGG_img_mask.keras",
+            'file_model': "VGG_img_mask_128.keras",
             'class_map': {2: 'COVID', 0: 'Normal', 1: 'Non-COVID'},
             'load_img': VGGload.load_images}
 }

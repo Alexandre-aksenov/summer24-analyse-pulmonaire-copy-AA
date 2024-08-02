@@ -15,7 +15,7 @@ from features.load_masked_images_from_CSV import load_images
 from features.funcs_VGG16 import pred_mat2class, define_fit_VGG16
 
 # Hyperparamètres (réduction de l'image)
-IMG_WIDTH = IMG_HEIGHT = 256
+IMG_WIDTH = IMG_HEIGHT = 128
 batch_size = 64
 epochs = 50
 
