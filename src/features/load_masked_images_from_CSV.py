@@ -11,7 +11,7 @@ import os
 import numpy as np
 import cv2
 
-def load_masked_img(tup_paths: tuple, new_size=(28, 28)):
+def load_img_mask(tup_paths: tuple, new_size=(28, 28)):
     """
     Load a single tuple of paths to image, mask. 
 
@@ -76,5 +76,5 @@ def load_images(image_dir: str,
     for idx, row in image_df.iterrows():
         img_path = os.path.join(image_dir, row['img_folder'], row['Images'])
         mask_path = os.path.join(image_dir, row['mask_folder'], row['Masks'])
-        image_data[idx, :, :, :] = load_masked_img((img_path, mask_path), new_size=new_size)
+        image_data[idx, :, :, :] = load_img_mask((img_path, mask_path), new_size=new_size)
     return image_data

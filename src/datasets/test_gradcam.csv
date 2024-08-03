@@ -1,0 +1,7 @@
+,Images,Masks,num_class,img_folder,mask_folder,CNN_pred_class,VGG_pred_class
+7,COVID-3137.png,COVID-3137.png,2,COVID/images,COVID/masks,2,2
+12,Lung_Opacity-106.png,Lung_Opacity-106.png,1,Lung_Opacity/images,Lung_Opacity/masks,1,1
+311,COVID-1314.png,COVID-1314.png,2,COVID/images,COVID/masks,2,2
+350,Normal-4872.png,Normal-4872.png,0,Normal/images,Normal/masks,0,0
+441,Viral Pneumonia-383.png,Viral Pneumonia-383.png,1,Viral Pneumonia/images,Viral Pneumonia/masks,1,1
+629,Normal-8348.png,Normal-8348.png,0,Normal/images,Normal/masks,0,0
