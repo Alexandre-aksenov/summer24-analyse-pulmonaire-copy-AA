@@ -1,5 +1,11 @@
 """
-Présentation du 5 août 2024.
+La 2e partie de la présentation du 5 août 2024.
+La présentation était faite en deux parties.
+Cette partie contient les sections
+"Contexte", "Données", "Répartition par type de patient", "Répartition des sources"
+(au début de la présentation)
+et "Modélisation", "Démo", "Conclusion et perspectives"
+à la fin de la présentation générale.
 
 """
 
@@ -11,7 +17,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import cv2
 
-# for looking for packages in the src folder. "Dirty" solution 1.
 import sys
 sys.path.append('..')
 
@@ -85,21 +90,15 @@ def load_metadata():
 
 data_meta = load_metadata()
 
-
-# ["Contexte", "Données", "Répartition par type de patient", "Répartition des sources", "Recherche d’outliers", "Indicateurs de lisibilité des images", "Utilisation des masques",  "Part des poumons dans les images", "Formalisation du modèle", "Modèles présélectionnés", "Modélisation", "Démo",  "Conclusion et perspectives"]
-
-# + "Recherche d’outliers", "Indicateurs de lisibilité des images"
-
-# -  "Résolution des images"
-
-# - CRITERES -
-
 # Créer le menu de navigation
 with st.sidebar:
     selected = option_menu("Menu",
-        ["Contexte", "Données", "Répartition par type de patient", "Répartition des sources", "Recherche d’outliers", "Indicateurs de lisibilité des images", "Formalisation du modèle",
-        "Modèles préselectionnés", "Modélisation", "Démo", "Conclusion et perspectives"],
-
+        [
+            "Contexte", "Données", "Répartition par type de patient",
+            "Répartition des sources",
+            "Recherche d’outliers", "Indicateurs de lisibilité des images",  # vide
+            "Formalisation du modèle", "Modèles préselectionnés",  # vide
+            "Modélisation", "Démo", "Conclusion et perspectives"],
         menu_icon="cast", default_index=0)
 
 if selected == "Contexte":
@@ -237,18 +236,6 @@ elif selected == "Répartition des sources":
     crosstab = pd.crosstab(data_meta.url, data_meta.data_type)
     st.dataframe(crosstab)
 
-elif selected == "Résolution des images":
-    st.title("Résolution des images")
-    st.write("""
-    Les métadonnées indiquent la même résolution de 256x256 pour l’ensemble des images. Il s’agit cependant de 
-    la taille des masques fournis. Les images de radiographie sont quant à elles de dimension 299x299.
-    Les images sont encodées en noir et blanc, à l’exception de 10% des données pneumonie, encodées en couleur. 
-    Ces dernières sont converties au format noir et blanc en opérant une moyenne des canaux de couleurs. 
-    L’ensemble des images est ainsi traité comme des matrices à deux dimensions.
-    Dans la suite, on considèrera comme résolution de référence la taille 256x256, à la fois pour s’assurer de la 
-    précision de la délimitation des masques sur les images et pour limiter le coût de calcul.
-    """)
-
 elif selected == "Formalisation du modèle":
     st.title("Formalisation du modèle de classification")
     st.header("Choix du nombre de classes")
@@ -303,34 +290,6 @@ elif selected == "Modèles préselectionnés":
         st.markdown("1. Leurs performances en prédiction ;")
         st.markdown("2. Leur facilité d’implémentation et leur coût computationnel ;")
         st.markdown("3. Leur interprétabilité.")
-
-elif selected == "CRITERES DE PERFORMANCES RETENUS":
-    st.title("CRITERES DE PERFORMANCES RETENUS")
-    st.write("""
-    Les modèles sont évalués selon une métrique donnée. On se concentre d’une part sur le taux de bonnes 
-    prédictions du modèle (précision). En effet, ce choix peut être transposé à tous les types de modèle et toutes les 
-    répartitions en classes. D’autre part, la classe cible étant le groupe Covid, on s’intéresse également à son rappel. 
-    C’est pourquoi le f1-score est aussi une métrique de comparaison des modèles importante.
-    """)
-
-    show_option = st.radio("", ["Afficher la procédure", "Afficher les résultats", "Choix des modèles"], horizontal=True)
-
-    if show_option == "Afficher la procédure":
-        st.image("image_process_models.png", caption="Image Process Models")
-    elif show_option == "Afficher les résultats":
-        st.image("resultat_tab.png", caption="Résultats")
-    elif show_option == "Choix des modèles":
-        st.write("""
-        Nous en avons retenu trois dont les performances générales et sur la classe covid dépassent les 80% de précision et de f1-score :
-        - Le CNN qui obtient de bons résultats, notamment sur la classe Covid et qui est un modèle de Deep Learning simple à implémenter ;
-        - VGG16 dont les résultats sont parmi les meilleurs, mais qui est très coûteux en temps de capath_model_CNNlcul ;
-        - Et ResNet qui obtient les meilleurs résultats.
-        
-        Dans la suite, les modèles listés ci-dessus sont présentés plus en détails et comparés selon plusieurs critères :
-        1. Leurs performances en prédiction ;
-        2. Leur facilité d’implémentation et leur coût computationnel ;
-        3. Leur interprétabilité.
-        """)
 
 elif selected == "Modélisation":
     st.title("Modélisation")
