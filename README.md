@@ -1,7 +1,15 @@
-Project Name
+Classification of images of pulmonary scan using CNN.
 ==============================
 
-This repo is a Starting Pack for DS projects. You can rearrange the structure to make it fits your project.
+This repository contains a model for classifying between healthy or COVID patients on basis of their pulmonary scans. The sick non-COVID patients (pneumonia, lung opacity) form a third class. This project deals there fore with a problem of classification with 3 classes.
+
+The features for each patient consist of two images: the their pulmonary scan and the mask of the region of the lungs. The data can be found at: https://www.kaggle.com/tawsifurrahman/covid19-radiography-database .
+
+A part of the final streamlit prentation is located at: <code>src/streamlit/presentation_5aug_fin.py</code> . This presentation contains the sections
+"Contexte", "Données", "Répartition par type de patient", "Répartition des sources"
+(at the beginning)
+and "Modélisation", "Démo", "Conclusion et perspectives"
+(at the end).
 
 Project Organization
 ------------
